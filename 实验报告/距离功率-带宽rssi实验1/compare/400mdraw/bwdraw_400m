@@ -1,0 +1,21 @@
+#set data style lines
+set surface 
+set contour surface
+
+set view 60, 30, 1, 1
+set clabel '%8.2f'
+set key left
+set title "BW400m"
+set xlabel "power2"
+set ylabel "power1"
+set zlabel "bw"
+
+set xrange [300:1700]
+set yrange [300:1700]
+
+set term gif
+set output "bw400m.gif"
+set dgrid3d 15 15
+set pm3d
+splot "4-400m.txt" using 5:4:8 notitle with pm3d
+

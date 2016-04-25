@@ -1,0 +1,15 @@
+1413270810
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec   114 MBytes  95.7 Mbits/sec
+[  3] Sent 81446 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  51.6 MBytes  43.1 Mbits/sec   0.566 ms 44671/81445 (55%)
+[  3]  0.0-10.0 sec  1 datagrams received out-of-order
+1413270820

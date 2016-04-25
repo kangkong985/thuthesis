@@ -1,0 +1,18 @@
+      set   autoscale                        # scale axes automatically
+      unset log                              # remove any log-scaling
+      unset label                            # remove any previous labels
+     set terminal jpeg medium size 1024,768\
+                      xffffff x000000 x404040 \
+                      xff0000 xffa500 x66cdaa xcdb5cd \
+                      xadd8e6 x0000ff xdda0dd x9500d3    # defaults
+	set output "rssi_bw_1000.jpg"
+      set xtic auto                          # set xtics automatically
+      set ytic auto                          # set ytics automatically
+      set title "rssi_bw"
+      set xlabel "rssi"
+      set ylabel "bw"
+    set key left 
+#      set xr [200:1800]
+#      set yr [0:100]
+      plot "4-1000m.txt" using 15:8 title 'bw_bitrate' with points
+	

@@ -1,0 +1,24 @@
+#!/bin/bash
+for i in $(seq 300 100 1700)
+do
+    for f in *m_n1_*_n2_${i}_100.dat
+    do        
+	    TIME=($(grep '[1-9][0-9]\{9\}' $f))
+        distance=`echo $f | cut -d '_' -f 1 | cut -d 'm' -f 1` 
+	    p1=`echo $f | cut -d '_' -f 3`
+        p2=`echo $f | cut -d '_' -f 5`
+        BD=`echo $f | cut -d '_' -f 6 | cut -d '.' -f 1`
+        TMP=`cat $f | grep \(*%\)`
+        REG=([1-9][0-9]{0,}\.[0-9][0-9])\ Mbits/sec
+	    EBD=0.1	
+        [[ $TMP =~ $REG ]] && EBD=`echo $BASH_REMATCH[0] | cut -d ' ' -f 1`
+        REG=([1-9][0-9]{0,}\.[0-9]{3})\ ms
+        [[ $TMP =~ $REG ]] && LATENCY=`echo $BASH_REMATCH[0] | cut -d ' ' -f 1`
+        REG=[1-9][0-9]{0,}%
+        [[ $TMP =~ $REG ]] && RATIO=`echo $BASH_REMATCH[0] | cut -d '%' -f 1`
+    	DSTR=`echo ${TIME[0]}`
+    	DSTT=`echo ${TIME[1]}`
+    	echo $DSTR $DSTT $distance $p1 $p2 $BD --- $TMP
+    done | sort -k5,5nr --key=4,4nr >> p2_${i}.txt
+done
+exit 0

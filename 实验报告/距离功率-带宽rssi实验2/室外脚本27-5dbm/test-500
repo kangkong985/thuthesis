@@ -1,0 +1,10 @@
+#!/bin/ash
+for j in $(seq 1 1 23)
+do
+	sleep 7
+	time=`date +%s`
+	signal=`iw dev adhoc0 station dump | grep 00:0c:42:22:b6:70 -A 14 | grep signal\ avg | awk '{print $3}'`
+	echo $time $signal >> /rssitest/$1m/rssi2-$2.txt
+	sleep 7
+done
+

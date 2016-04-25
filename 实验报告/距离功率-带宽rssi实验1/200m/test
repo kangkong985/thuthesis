@@ -1,0 +1,13 @@
+set isosamples 40
+unset key
+set title "xxx"
+set ztics 1
+splot besj0(x**2+y**2)
+#splot "4.txt" using 4:5:11 notitle with lines
+set view 29,53
+set term pngcairo mono enhanced
+set out "xx.png"
+replot
+#set dgrid3d 30,30
+#set hidden3d
+#splot "4.txt" using 4:5:11 notitle with lines

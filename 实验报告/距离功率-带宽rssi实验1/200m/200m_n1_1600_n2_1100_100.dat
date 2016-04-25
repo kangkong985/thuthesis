@@ -1,0 +1,90 @@
+1412835821
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  57.1 MBytes  95.8 Mbits/sec
+[  3] Sent 40733 datagrams
+[  3] Server Report:
+[  3]  0.0- 5.1 sec  48.6 MBytes  80.6 Mbits/sec   0.016 ms 6098/40732 (15%)
+[  3]  0.0- 5.1 sec  1 datagrams received out-of-order
+1412835826
+1412835826
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  57.1 MBytes  95.9 Mbits/sec
+[  3] Sent 40761 datagrams
+[  3] Server Report:
+[  3]  0.0- 5.1 sec  48.6 MBytes  80.6 Mbits/sec   0.016 ms 6098/40732 (15%)
+[  3]  0.0- 5.1 sec  1 datagrams received out-of-order
+1412835831
+1412835831
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  57.1 MBytes  95.8 Mbits/sec
+[  3] Sent 40734 datagrams
+[  3] Server Report:
+[  3]  0.0- 5.0 sec  48.0 MBytes  80.1 Mbits/sec   0.127 ms 6530/40760 (16%)
+[  3]  0.0- 5.0 sec  1 datagrams received out-of-order
+1412835836
+1412835836
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  57.1 MBytes  95.8 Mbits/sec
+[  3] Sent 40736 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  94.1 MBytes  78.7 Mbits/sec   0.012 ms 6525/40735 (16%)
+[  3]  0.0-10.0 sec  32921 datagrams received out-of-order
+1412835841
+1412835841
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  57.1 MBytes  95.8 Mbits/sec
+[  3] Sent 40735 datagrams
+[  3] Server Report:
+[  3]  0.0-10.0 sec  94.1 MBytes  78.7 Mbits/sec   0.012 ms 6525/40735 (16%)
+[  3]  0.0-10.0 sec  32921 datagrams received out-of-order
+1412835846
+1412835846
+------------------------------------------------------------
+Client connecting to 192.0.2.21, UDP port 5001
+Binding to local address 192.0.1.111
+Sending 1470 byte datagrams
+UDP buffer size:  160 KByte (default)
+------------------------------------------------------------
+[  3] local 192.0.1.111 port 5001 connected with 192.0.2.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec  57.1 MBytes  95.8 Mbits/sec
+[  3] Sent 40731 datagrams
+[  3] Server Report:
+[  3]  0.0- 5.0 sec  47.8 MBytes  79.7 Mbits/sec   0.399 ms 6625/40734 (16%)
+[  3]  0.0- 5.0 sec  1 datagrams received out-of-order
+1412835851

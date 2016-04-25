@@ -1,0 +1,32 @@
+set title "bw7m_5lines" font "Verdana,20"
+set xlabel "power1" font "Verdana,20"
+set ylabel "bw" font "Verdana,20"
+set term gif size 1200,800
+set output "bw7m_5lines.gif"
+set xr [300:2700]
+#set yr [0:100]
+set xtics 0,200,2700 font "Verdana,15"
+set ytics font "Verdana,15"
+set key left font "Verdana,12"
+      plot "p2_7m_700.txt" using 4:8 title 'p2_700' with linespoints,\
+	"p2_7m_1200.txt" using 4:8 title 'p2_1200' with linespoints,\
+	"p2_7m_1700.txt" using 4:8 title 'p2_1700' with linespoints,\
+	"p2_7m_2200.txt" using 4:8 title 'p2_2200' with linespoints,\
+	"p2_7m_2700.txt" using 4:8 title 'p2_2700' with linespoints
+
+
+set title "rssi7m_5lines" font "Verdana,20"
+set xlabel "power1" font "Verdana,20"
+set ylabel "rssi" font "Verdana,20"
+set term gif size 1200,800
+set output "rssi7m_5lines.gif"
+set xr [300:2700]
+#set yr [-80:-40]
+set xtics 0,200,2700 font "Verdana,15"
+set ytics font "Verdana,15"
+set key left font "Verdana,12"
+      plot "p2_7m_700.txt" using 4:15 title 'p2_700' with linespoints,\
+	"p2_7m_1200.txt" using 4:15 title 'p2_1200' with linespoints,\
+	"p2_7m_1700.txt" using 4:15 title 'p2_1700' with linespoints,\
+	"p2_7m_2200.txt" using 4:15 title 'p2_2200' with linespoints,\
+	"p2_7m_2700.txt" using 4:15 title 'p2_2700' with linespoints

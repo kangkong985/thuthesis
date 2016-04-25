@@ -1,0 +1,2 @@
+本次实验是测试距离功率对最大带宽和rssi影响的第二轮实验，实验地点是在路边，两个节点相距50米，接收节点的功率取了五个值，发送节点功率从27往下调节直到3dbm。测试时间：2014/10/22 测试人：周翔宇 李恒
+关于脚本执行顺序：首先保证bandwidth_5lines x.sh 5lines_50m.sh这三个脚本中关于距离的改成符合本次实验数据，例如脚本是1m文件夹copy过来的，先执行sed -i 's/1m/50m/g' bandwidth_5lines 将三个文件都改好后依次执行：./x.sh   ./5lines_50m.sh   gnuplot bandwidth_5lines

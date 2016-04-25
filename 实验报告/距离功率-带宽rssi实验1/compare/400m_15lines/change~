@@ -1,0 +1,7 @@
+#!/bin/bash
+for i in $(seq 300 100 1700)
+do
+${i}
+	sed -i 's/p2_${i}_3.txt/p2_400m_${i}.txt/g' bandwidth 
+done 
+

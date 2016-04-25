@@ -1,0 +1,20 @@
+set terminal jpeg medium size 800,480
+set surface 
+set contour surface
+set origin 0.1,0
+set view 60, 30, 1, 1
+set clabel '%8.2f'
+set key right
+set title "rssi800m"
+set xlabel "power2"
+set ylabel "power1"
+set zlabel "rssi"
+
+set xrange [600:1700]
+set yrange [600:1700]
+
+set term gif
+set output "rssi800m.gif"
+set dgrid3d 12 12
+splot "4-800m.txt" using 5:4:15 notitle with pm3d
+

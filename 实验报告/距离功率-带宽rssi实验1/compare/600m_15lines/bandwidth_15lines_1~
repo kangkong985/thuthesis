@@ -1,0 +1,23 @@
+      set   autoscale                        # scale axes automatically
+      unset log                              # remove any log-scaling
+      unset label                            # remove any previous labels
+     set terminal jpeg medium size 1280,720\
+                      xffffff x000000 x404040 \
+                      xff0000 xffa500 x66cdaa xcdb5cd \
+                      xadd8e6 x0000ff xdda0dd x9500d3    # defaults
+	set output "bw600m_15lines_1.jpg"
+      set xtic auto                          # set xtics automatically
+      set ytic auto                          # set ytics automatically
+      set title "bw600m_15lines_1"
+      set xlabel "power1"
+      set ylabel "bw"
+      set key left 
+#      set xr [200:1800]
+#      set yr [0:50]
+      plot "p2_600m_400.txt" using 4:8 title 'p2_400' with linespoints,\
+	"p2_600m_500.txt" using 4:8 title 'p2_500' with linespoints,\
+	"p2_600m_600.txt" using 4:8 title 'p2_600' with linespoints,\
+	"p2_600m_700.txt" using 4:8 title 'p2_700' with linespoints,\
+	"p2_600m_800.txt" using 4:8 title 'p2_800' with linespoints,\
+	"p2_600m_900.txt" using 4:8 title 'p2_900' with linespoints,\
+	"p2_600m_1000.txt" using 4:8 title 'p2_1000' with linespoints

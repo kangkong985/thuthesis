@@ -1,0 +1,21 @@
+#set data style lines
+set surface 
+set contour surface
+
+set view 60, 30, 1, 1
+set clabel '%8.2f'
+set key right
+set title "BW600m"
+set xlabel "power2"
+set ylabel "power1"
+set zlabel "bw"
+
+set xrange [400:1700]
+set yrange [400:1700]
+
+set term gif
+set output "bw600m.gif"
+set dgrid3d 14 14
+#splot "4-600m.txt" using 5:4:10 notitle with lines
+splot "4-600m.txt" using 5:4:10 notitle with pm3d
+

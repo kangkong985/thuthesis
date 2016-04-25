@@ -1,0 +1,24 @@
+#! /bin/bash
+folder=$1m
+mkdir ${folder}
+i=100
+cd ${folder}
+sshpass -p 1 ssh root@192.0.1.10 "mkdir /rssitest/$1m"
+sshpass -p 1 ssh root@192.0.5.10 "mkdir /rssitest/$1m"
+for power2 in $(seq 2700 -500 700)
+do
+    update=`date +%H:%M:%S`
+    sshpass -p 1 ssh root@192.0.1.10 "date -s "$update"" &
+    sshpass -p 1 ssh root@192.0.5.10 "date -s "$update""     
+    sshpass -p 1 ssh root@192.0.1.10 "ash /rssitest/rssiautorun1 $1 $power2 &"
+    sshpass -p 1 ssh root@192.0.5.10 "iw dev adhoc0 set txpower fixed $power2"
+    sshpass -p 1 ssh root@192.0.5.10 "ash /rssitest/rssiautorun2 $1 $power2 &"
+    for power1 in $(seq 2700 -100 300)
+    do
+	sshpass -p 1 ssh root@192.0.1.10 "iw dev adhoc0 set txpower fixed $power1"
+    sleep 0.6
+	date +%s > ${folder}_n1_${power1}_n2_${power2}_$i.dat
+	iperf -c 192.0.5.111 -t 10 -u -b 100M | tee -a ${folder}_n1_${power1}_n2_${power2}_$i.dat
+	date +%s >> ${folder}_n1_${power1}_n2_${power2}_$i.dat
+    done 
+done

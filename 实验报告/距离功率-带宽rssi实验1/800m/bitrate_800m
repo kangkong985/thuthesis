@@ -1,0 +1,18 @@
+set terminal jpeg medium size 800,480
+set contour surface
+set view 60, 30, 1, 1
+set clabel '%8.2f'
+#set origin 0.1,0
+set key left
+set title "bitrate"
+set xlabel "power2"
+set ylabel "power1"
+set zlabel "bitrate"
+set xrange [600:1700]
+set yrange [600:1700]
+set term gif
+set output "bitrate_800m.gif"
+set dgrid3d 12 12
+splot "4-800m.txt" using 5:4:21 notitle with pm3d
+
+

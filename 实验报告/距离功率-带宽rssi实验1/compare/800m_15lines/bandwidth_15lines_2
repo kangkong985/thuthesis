@@ -1,0 +1,22 @@
+      set   autoscale                        # scale axes automatically
+      unset log                              # remove any log-scaling
+      unset label                            # remove any previous labels
+     set terminal jpeg medium size 1280,720\
+                      xffffff x000000 x404040 \
+                      xff0000 xffa500 x66cdaa xcdb5cd \
+                      xadd8e6 x0000ff xdda0dd x9500d3    # defaults
+	set output "bw800m_15lines_2.jpg"
+      set xtic auto                          # set xtics automatically
+      set ytic auto                          # set ytics automatically
+      set title "bw800m_15lines_2"
+      set xlabel "power1"
+      set ylabel "bw"
+      set key left 
+      set xr [200:1800]
+      set yr [0:90]
+    plot "p2_800m_1200.txt" using 4:8 title 'p2_1200' with linespoints,\
+	"p2_800m_1300.txt" using 4:8 title 'p2_1300' with linespoints,\
+	"p2_800m_1400.txt" using 4:8 title 'p2_1400' with linespoints,\
+	"p2_800m_1500.txt" using 4:8 title 'p2_1500' with linespoints,\
+	"p2_800m_1600.txt" using 4:8 title 'p2_1600' with linespoints,\
+	"p2_800m_1700.txt" using 4:8 title 'p2_1700' with linespoints

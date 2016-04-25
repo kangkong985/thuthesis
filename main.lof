@@ -1,0 +1,31 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 利用 Xfig 制图\relax }}{18}{figure.caption.16}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 包含子图形的大图形(subcaptionbox示例)\relax }}{19}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 包含子图形的大图形(subfigure示例)\relax }}{19}{figure.caption.18}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 并排第一个图\relax }}{20}{figure.caption.19}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 并排第二个图\relax }}{20}{figure.caption.19}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 计算TQ\relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces TQ传播\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 路由选择示例\relax }}{24}{figure.caption.22}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 相邻链路干扰实验图示\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 单跳带宽测试\relax }}{29}{figure.caption.25}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 隐终端带宽测试\relax }}{29}{figure.caption.26}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 单跳带宽测试实验结果\relax }}{30}{figure.caption.27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 隐终端带宽测试实验结果(rts打开vsrts关闭)\relax }}{31}{figure.caption.28}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 发送功率对带宽影响\relax }}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 隐终端带宽测试实验结果(增加发送功率作为因变量)\relax }}{32}{figure.caption.30}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 子网划分实验床\relax }}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 子网划分后的干扰示意图\relax }}{33}{figure.caption.32}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces GOP结构示例，GOP(12,3)\relax }}{36}{figure.caption.34}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces EDCA的四个AC队列\relax }}{37}{figure.caption.35}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces 静态映射和动态映射机制示例\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces I帧、P帧、B帧丢失对视频质量的影响比较\relax }}{38}{figure.caption.37}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces 不同位置的P帧丢失对视频质量的影响比较\relax }}{39}{figure.caption.38}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 映射机制流程\relax }}{42}{figure.caption.40}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 映射机制跨层设计\relax }}{42}{figure.caption.41}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

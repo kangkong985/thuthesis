@@ -1,0 +1,72 @@
+\contentsline {chapter}{\numberline {第1章\hspace {0.3em}}引言}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}背景及意义}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}主要工作}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}文章组织结构}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}封面相关}{2}{section.1.4}
+\contentsline {section}{\numberline {1.5}字体命令}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}表格样本}{3}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}基本表格}{3}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}复杂表格}{3}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}其它}{7}{subsection.1.6.3}
+\contentsline {section}{\numberline {1.7}定理环境}{8}{section.1.7}
+\contentsline {section}{\numberline {1.8}参考文献}{11}{section.1.8}
+\contentsline {section}{\numberline {1.9}公式}{12}{section.1.9}
+\contentsline {chapter}{\numberline {第2章\hspace {0.3em}}相关工作}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}无线Mesh网络}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}无线Mesh网络中的路由技术}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}主要路由技术}{15}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}优化的链路状态路由（OLSR）}{16}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Ad-hoc网络需求驱动的距离向量路由协议（AODV）}{16}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}针对移动Ad-hoc网络的路由协议（BATMAN）}{16}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}BATMAN升级版（BATMAN-adv）}{16}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}802.11协议簇QoS支持}{17}{section.2.3}
+\contentsline {section}{\numberline {2.4}无线Mesh网络视频传输}{17}{section.2.4}
+\contentsline {section}{\numberline {2.5}其它例子}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}绘图}{18}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}插图}{18}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}一个图形}{18}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}多个图形}{19}{subsubsection.2.5.2.2}
+\contentsline {chapter}{\numberline {第3章\hspace {0.3em}}项目设计}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}项目描述}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}BATMAN-adv路由协议}{21}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}数据包类型}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}节点发现}{22}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}链路质量估计}{23}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}TQ传播}{23}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}路由选择}{24}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}全局QoS保障技术}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}划分子网}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}视频帧权重队列映射}{25}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}移动场景下的QoS保障}{25}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}辅助模块开发}{25}{section.3.4}
+\contentsline {chapter}{\numberline {第4章\hspace {0.3em}}项目实现}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}信道隔离}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}相邻链路干扰}{27}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}隐终端}{28}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}视频帧权重队列映射}{34}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}视频帧分层编码}{35}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}802.11e增强分布式协调访问(EDCA)}{36}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}视频帧映射机制}{38}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {A.}权重计算}{39}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {B.}帧映射}{41}{subsubsection.4.2.3.2}
+\contentsline {subsubsection}{\numberline {C.}映射系统实现}{41}{subsubsection.4.2.3.3}
+\contentsline {subsection}{\numberline {4.2.4}实验验证}{42}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {A.}实验方法}{42}{subsubsection.4.2.4.1}
+\contentsline {chapter}{插图索引}{43}{section*.42}
+\contentsline {chapter}{表格索引}{45}{section*.44}
+\contentsline {chapter}{公式索引}{46}{section*.46}
+\contentsline {chapter}{参考文献}{47}{section*.48}
+\contentsline {chapter}{致\hspace {1em}谢}{49}{section*.50}
+\contentsline {chapter}{声\hspace {1em}明}{50}{section*.52}
+\contentsline {chapter}{\numberline {附录 A\hspace {0.3em}}外文资料原文}{51}{appendix.A}
+\contentsline {section}{\numberline {A.1}Single-Objective Programming}{51}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Linear Programming}{52}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Nonlinear Programming}{53}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Integer Programming}{54}{subsection.A.1.3}
+\contentsline {chapter}{\numberline {附录 B\hspace {0.3em}}外文资料的调研阅读报告或书面翻译}{55}{appendix.B}
+\contentsline {section}{\numberline {B.1}单目标规划}{55}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}线性规划}{55}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}非线性规划}{56}{subsection.B.1.2}
+\contentsline {subsection}{\numberline {B.1.3}整数规划}{56}{subsection.B.1.3}
+\contentsline {chapter}{\numberline {附录 C\hspace {0.3em}}其它附录}{57}{appendix.C}
+\contentsline {chapter}{个人简历、在学期间发表的学术论文与研究成果}{58}{section*.62}

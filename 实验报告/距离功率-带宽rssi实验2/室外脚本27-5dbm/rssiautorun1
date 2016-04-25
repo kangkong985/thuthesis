@@ -1,0 +1,5 @@
+#!/bin/ash
+sleep 30
+time=`date +%s`
+signal=`iw dev adhoc0 station dump | grep 00:0c:42:22:b6:8d -A 14 | grep signal\ avg | awk '{print $3}'`
+echo $time $signal > /rssitest/$1m/rssi1-$2.txt

@@ -1,0 +1,26 @@
+# Gnuplot script file for plotting data in file "force.dat"
+      # This file is called   force.p
+      set   autoscale                        # scale axes automatically
+      unset log                              # remove any log-scaling
+      unset label                            # remove any previous labels
+     set terminal jpeg medium size 1024,768\
+                      xffffff x000000 x404040 \
+                      xff0000 xffa500 x66cdaa xcdb5cd \
+                      xadd8e6 x0000ff xdda0dd x9500d3    # defaults
+	set output "adhoc0.jpg"
+	set xdata time
+      set ytic auto                          # set ytics automatically
+      set title "Mesh adhoc0 statistics"
+      set xlabel "time"
+      set ylabel "30 second average bandwidth(byte)"
+
+set timefmt "%H:%M %d/%m/%y"
+set xrange ["10:55 17/09/14":"11:25 17/09/14"] 
+  set timefmt "%s"
+#      set yr [0:25]
+      plot  "http\:--192.0.1.10-cgi-bin-interface-if_octets-if_adhoc0" using ($1+28800):3 title '1st mesh' with points, \
+            "http\:--192.0.2.10-cgi-bin-interface-if_octets-if_adhoc0" using ($1+28800):3 title '2nd mesh' with points, \
+            "http\:--192.0.3.10-cgi-bin-interface-if_octets-if_adhoc0" using ($1+28800):3 title '3rd mesh' with points, \
+	        "http\:--192.0.4.10-cgi-bin-interface-if_octets-if_adhoc0" using ($1+28800):3 title '4th mesh' with points, \
+            "http\:--192.0.5.10-cgi-bin-interface-if_octets-if_adhoc0" using ($1+28800):3 title '5th mesh' with points, \
+	"http\:--192.168.1.1-cgi-bin-interface-if_octets-if_adhoc0" using ($1+28800):2 title 'server' with points
