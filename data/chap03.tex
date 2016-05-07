@@ -1,18 +1,20 @@
 \chapter{项目设计}
-\label{cha:china}
+\label{cha:project_design}
 
 \section{项目描述}
 本项目旨在构建一整套稳定、健壮、大规模的无线Mesh网络基础设施，以支持大量的实时监控视频
 数据传输。
 
-项目基于的硬件平台为mikrotik RB411U电路板，该电路板搭载Athros AR7130处理器，工作频率300MHz,
-内存32M，天线为Broadcom，工作在5GHz频段，增益12dBi。该硬件平台正常通信范围为3～5km。另外，
+项目基于的硬件平台为Mikrotik RB411U电路板，该电路板搭载Athros AR7130处理器，工作频率300MHz,
+内存32M，天线为Broadcom，工作在5GHz频段，增益12dBi。该硬件平台正常通信范围为3~5km。另外，
 配置Atheros AR9220无线模块，该模块对EDCA的队列机制提供硬件级支持。节点另外设计有封装外壳，
 防水防爆，以适应不同的工业应用场景。
 
-节点运行的操作系统为为openWRT系统。基于Linux2.4.30内核，专业设计用于嵌入式无线网络设备。开发系统为
-Ubuntu12.04，编译工具基于openWRT提供的相应硬件平台的编译环境配置，引入BATMAN-adv路由
+节点运行的操作系统为为OpenWRT系统。基于Linux2.4.30内核，专业设计用于嵌入式无线网络设备。开发系统为
+Ubuntu12.04，编译工具基于OpenWRT提供的相应硬件平台的编译环境配置，引入BATMAN-adv路由
 协议的包。所有使用的软件系统均来自开源项目。
+
+实验章节中使用公开的视频序列[http://trace.eas.asu.edu/yuv/]和普通的D-link摄像头获取视频图像。
 
 \section{BATMAN-adv路由协议}
 为了深入研究项目的Mesh网路特点，并进行深度开发，有必要首先理解BATMAN-adv的技术原理。
