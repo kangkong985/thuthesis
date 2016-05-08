@@ -5,48 +5,62 @@ A level-1 auxiliary file: data/chap01.aux
 A level-1 auxiliary file: data/chap02.aux
 A level-1 auxiliary file: data/chap03.aux
 A level-1 auxiliary file: data/chap04.aux
+A level-1 auxiliary file: data/chap05.aux
 The style file: thuthesis.bst
-A level-1 auxiliary file: data/ack.aux
-A level-1 auxiliary file: data/resume.aux
 Database file #1: ref/refs.bib
-You've used 21 entries,
+I was expecting a `,' or a `}'---line 6 of file ref/refs.bib
+ :   
+ :   year=2013
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in OLSR
+Warning--empty institution in AODV
+Warning--empty year in IEEE80211
+Too many commas in name 1 of "A.Rowe, R.Rajkumar, C.Huang, C-C.Yeh" for entry OmniEye
+while executing---line 1203 of file thuthesis.bst
+Too many commas in name 1 of "Tseng, Yu-Chee Ni, Sze-Yao Chen, Yuh-Shyau Sheu, Jang-Ping" for entry broadcaststorm
+while executing---line 1203 of file thuthesis.bst
+Too many commas in name 1 of "Tseng, Yu-Chee Ni, Sze-Yao Chen, Yuh-Shyau Sheu, Jang-Ping" for entry broadcaststorm
+while executing---line 1203 of file thuthesis.bst
+You've used 39 entries,
             2299 wiz_defined-function locations,
-            663 strings with 6697 characters,
-and the built_in function-call counts, 11926 in all, are:
-= -- 1218
-> -- 216
-< -- 8
-+ -- 101
-- -- 52
-* -- 1021
-:= -- 1541
-add.period$ -- 53
-call.type$ -- 21
-change.case$ -- 18
+            749 strings with 11767 characters,
+and the built_in function-call counts, 20712 in all, are:
+= -- 2150
+> -- 474
+< -- 16
++ -- 222
+- -- 110
+* -- 1617
+:= -- 2681
+add.period$ -- 104
+call.type$ -- 39
+change.case$ -- 37
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 968
-empty$ -- 1283
-format.name$ -- 63
-if$ -- 2730
+cite$ -- 42
+duplicate$ -- 1486
+empty$ -- 2147
+format.name$ -- 142
+if$ -- 4770
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 19
-newline$ -- 133
-num.names$ -- 24
-pop$ -- 76
+int.to.str$ -- 39
+missing$ -- 39
+newline$ -- 249
+num.names$ -- 37
+pop$ -- 193
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 147
+skip$ -- 378
 stack$ -- 0
-substring$ -- 1748
-swap$ -- 56
-text.length$ -- 8
+substring$ -- 2835
+swap$ -- 139
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 104
-width$ -- 23
-write$ -- 252
+warning$ -- 3
+while$ -- 222
+width$ -- 41
+write$ -- 483
+(There were 4 error messages)

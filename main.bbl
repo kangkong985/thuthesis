@@ -1,143 +1,295 @@
 \begin{thebibliography}{10}
 
-\bibitem{tex}
-Knuth D~E.
-\newblock The {\TeX} Book.
-\newblock 15th ed., Reading, MA: Addison-Wesley Publishing Company, 1989
+\bibitem{OLSR}
+Clausen T, Jacquet P, Adjih C, et~al.
+\newblock Optimized link state routing protocol (olsr).
+\newblock 2003.
 \thudot
 
-\bibitem{companion}
-Goosens M, Mittelbach F, Samarin A.
-\newblock The {\LaTeX} Companion.
-\newblock Reading, MA: Addison-Wesley Publishing Company, 1994: 112--125
+\bibitem{AODV}
+Perkins C, Belding-Royer E, Das S.
+\newblock Ad hoc on-demand distance vector (aodv) routing.
+\newblock Technical report, 2003
 \thudot
 
-\bibitem{ColdSources}
-Gr{\"o}ning P, Nilsson L, Ruffieux P, et~al.
-\newblock Encyclopedia of Nanoscience and Nanotechnology, volume~1.
-\newblock American Scientific Publishers, 2004: 547--579
+\bibitem{BATMAN}
+Neumann A, Aichele C, Lindner M, et~al.
+\newblock Better approach to mobile ad-hoc networking (batman).
+\newblock IETF draft, October, 2008.
 \thudot
 
-\bibitem{Krasnogor2004e}
-Krasnogor N.
-\newblock Towards robust memetic algorithms.
-\newblock In: Hart W, Krasnogor N, Smith J, (eds.). Recent Advances in Memetic
-  Algorithms. New York: Springer Berlin Heidelberg, 2004: 185--207
+\bibitem{BATMAN-adv}
+Batman-adv.
+\newblock \url{https://www.open-mesh.org/projects/batman-adv/wiki}
 \thudot
 
-\bibitem{clzs}
-阎真.
-\newblock 沧浪之水.
-\newblock 人民文学出版社, 2001: 185--207
+\bibitem{IEEE80211}
+{IEEE Std 80211-2013}.
+\newblock IEEE Standard for Information Technology-Telecommunications and
+  Information Exchange Between Systems-Local and Metropolitan Area
+  Networks-Specific Requirements: Carrier Sense Multiple Access with Collision
+  Detection (CSMA/CD) Access Method and Physical Layer Specifications.
+\newblock New York: IEEE
 \thudot
 
-\bibitem{zjsw}
-班固.
-\newblock 苏武传.
-\newblock 见: 郑在瀛, 汪超宏, 周文复, 编. 传记散文英华.
-  武汉: 湖北人民出版社, 1998: 65--69
+\bibitem{IEEE80211s}
+{IEEE Std 80211s-2011}.
+\newblock IEEE Standard for Information technology--Local and metropolitan area
+  networks--Specific requirements--Part 11: Wireless LAN Medium Access
+  Control(MAC) and Physical Lay (PHY) Specification Amendment 10: Mesh Network.
+\newblock New York: IEEE, 2011
 \thudot
 
-\bibitem{ELIDRISSI94}
-{Chafik El Idrissi} M, {Roney} A, {Frigon} C, et~al.
-\newblock Measurements of total kinetic-energy released to the {$N=2$}
-  dissociation limit of {H}$_2$ --- evidence of the dissociation of very high
-  vibrational {R}ydberg states of {H}$_2$ by doubly-excited states.
-\newblock Chemical Physics Letters, 1994, 224(10):260--266
+\bibitem{IEEE80211e}
+{IEEE Std 80211e-2005}.
+\newblock IEEE Standard for Information technology--Local and metropolitan area
+  networks--Specific requirements--Part 11: Wireless LAN Medium Access Control
+  (MAC) and Physical Layer (PHY) Specifications - Amendment 8: Medium Access
+  Control (MAC) Quality of Service Enhancements.
+\newblock New York: IEEE, 2005
 \thudot
 
-\bibitem{MELLINGER96}
-Mellinger A, Vidal C~R, Jungen C.
-\newblock Laser reduced fluorescence study of the carbon-monoxide nd triplet
-  {R}ydberg series-experimental results and multichannel quantum-defect
-  analysis.
-\newblock J. Chem. Phys., 1996, 104(5):8913--8921
+\bibitem{multichannelassignment}
+Raniwala A, Gopalan K, Chiueh T~c.
+\newblock Centralized channel assignment and routing algorithms for
+  multi-channel wireless mesh networks.
+\newblock ACM SIGMOBILE Mobile Computing and Communications Review, 2004,
+  8(2):50--65
 \thudot
 
-\bibitem{SHELL02}
-Shell M.
-\newblock How to use the {IEEEtran \LaTeX} class.
-\newblock Journal of {\LaTeX} Class Files, 2002, 12(4):100--120
+\bibitem{RBA}
+Almasaeid H~M, Kamal A~E.
+\newblock Receiver-based channel allocation in cognitive radio wireless mesh
+  networks.
+\newblock Networking, IEEE/ACM Transactions on, 2015, 23(4):1286--1299
 \thudot
 
-\bibitem{zhubajie}
-猪八戒.
-\newblock 论流体食物的持久保存\thumasterbib.
-\newblock 北京: 广寒宫大学, 2005
+\bibitem{2008minimum}
+Subramanian A~P, Gupta H, Das S~R, et~al.
+\newblock Minimum interference channel assignment in multiradio wireless mesh
+  networks.
+\newblock Mobile Computing, IEEE Transactions on, 2008, 7(12):1459--1473
 \thudot
 
-\bibitem{metamori2004}
-Jeyakumar A~R.
-\newblock Metamori: A library for incremental file checkpointing[D].
-\newblock Blacksburg: Virgina Tech, June~21, 2004
+\bibitem{2005characterizing}
+Kodialam M, Nandagopal T.
+\newblock Characterizing the capacity region in multi-radio multi-channel
+  wireless mesh networks.
+\newblock  Proceedings of the 11th annual international conference on Mobile
+  computing and networking. ACM, 2005.
+\newblock  73--87
 \thudot
 
-\bibitem{shaheshang}
-沙和尚.
-\newblock 论流沙河的综合治理\thuphdbib.
-\newblock 北京: 清华大学, 2005
+\bibitem{2005interference}
+Tang J, Xue G, Zhang W.
+\newblock Interference-aware topology control and qos routing in multi-channel
+  wireless mesh networks.
+\newblock  Proceedings of the 6th ACM international symposium on Mobile ad hoc
+  networking and computing. ACM, 2005.
+\newblock  68--77
 \thudot
 
-\bibitem{FistSystem01}
-Zadok E.
-\newblock {FiST: A System for Stackable File System Code Generation}[D].
-\newblock USA: Computer Science Department, Columbia University, May, 2001
+\bibitem{OmniEye}
+ARowe C~C~C.
+\newblock Real-time video surveillance over ieee 802.11 mesh networks.
+\newblock  Real-Time and Embedded Technology and Applications Symposium, 2009.
+  RTAS 2009. 15th IEEE. IEEE, 2009.
+\newblock  205--214
 \thudot
 
-\bibitem{IEEE-1363}
-{IEEE Std 1363-2000}.
-\newblock {IEEE} Standard Specifications for Public-Key Cryptography.
-\newblock New York: IEEE, 2000
+\bibitem{vimor}
+Choumas K, Syrigos I, Korakis T, et~al.
+\newblock Video-aware multicast opportunistic routing over 802.11 two-hop mesh
+  networks.
+\newblock  Sensing, Communication, and Networking (SECON), 2014 Eleventh Annual
+  IEEE International Conference on. IEEE, 2014.
+\newblock  486--494
 \thudot
 
-\bibitem{DPMG}
-Kim S, Woo N, Yeom H~Y, et~al.
-\newblock Design and {I}mplementation of {D}ynamic {P}rocess {M}anagement for
-  {G}rid-enabled {MPICH}.
-\newblock  the 10th European PVM/MPI Users' Group Conference, Venice, Italy,
-  2003
+\bibitem{MORE}
+Katti S, Katabi D, Balakrishnan H, et~al.
+\newblock Symbol-level network coding for wireless mesh networks.
+\newblock  Proceedings of the ACM SIGCOMM 2008 Conference on Data
+  Communication, New York, NY, USA: ACM, 2008.
+\newblock  401--412
 \thudot
 
-\bibitem{kocher99}
-Kocher C, Jaffe J, Jun B.
-\newblock Differential power analysis.
-\newblock In: Wiener M, (eds.). Advances in Cryptology ({CRYPTO}~'99), volume
-  1666 of {\em Lecture Notes in Computer Science}. Springer-Verlag, 1999.
-\newblock  388--397
+\bibitem{MSM-WLO}
+Le-Dang Q, McManis J, Muntean G~M.
+\newblock Link quality-aware overlay for video delivery over wireless mesh
+  networks.
+\newblock  Broadband Multimedia Systems and Broadcasting (BMSB), 2015 IEEE
+  International Symposium on. IEEE, 2015.
+\newblock  1--6
 \thudot
 
-\bibitem{NPB2}
-Woo A, Bailey D, Yarrow M, et~al.
-\newblock The {NAS} parallel benchmarks 2.0.
-\newblock Technical report, The Pennsylvania State University CiteSeer
-  Archives, December~05, 1995.
-\newblock  {\url{http://www.nasa.org/}}
+\bibitem{rateallocation}
+Zhu X, Schierl T, Wiegand T, et~al.
+\newblock Video multicast over wireless mesh networks with scalable video
+  coding (svc).
+\newblock  Electronic Imaging 2008. International Society for Optics and
+  Photonics, 2008.
+\newblock  682205--682205
 \thudot
 
-\bibitem{chuban2001}
-萧钰.
-\newblock 出版业信息化迈入快车道[EB/OL].
-\newblock (2001-12-19)[2002-04-15].
-\newblock  {\url{http://www.creader.com/news/200112190019.htm}}
+\bibitem{ABI}
+Hava A, Muntean G~M, Murphy J.
+\newblock Abi: A mechanism for increasing video delivery quality in multi-radio
+  wireless mesh networks.
+\newblock  Broadband Multimedia Systems and Broadcasting (BMSB), 2014 IEEE
+  International Symposium on. IEEE, 2014.
+\newblock  1--6
 \thudot
 
-\bibitem{oclc2000}
-{Online Computer Library Center, Inc}.
-\newblock History of {OCLC}[EB/OL].
-\newblock [2000-01-08].
-\newblock  {\url{http://www.oclc.org/about/history/default.htm}}
+\bibitem{crosslayermultiradio}
+Patil K, Narayan D, Mudenagudi U, et~al.
+\newblock Cross layer routing and rate adaptation for video transmission in
+  multi-radio wireless mesh networks.
+\newblock  Advances in Computing, Communications and Informatics (ICACCI), 2015
+  International Conference on. IEEE, 2015.
+\newblock  2139--2144
 \thudot
 
-\bibitem{cnarticle}
-贾宝玉, 林黛玉, 薛宝钗, 等.
-\newblock 论刘姥姥食量大如牛之现实意义.
-\newblock 红楼梦杂谈, 1800, 224:260--266
+\bibitem{crosslayervideostream}
+Andreopoulos Y, Mastronarde N, Schaar M.
+\newblock Cross-layer optimized video streaming over wireless multihop mesh
+  networks.
+\newblock Selected Areas in Communications, IEEE Journal on, 2006,
+  24(11):2104--2115
 \thudot
 
-\bibitem{cnproceed}
-王重阳, 黄药师, 欧阳峰, 等.
-\newblock 武林高手从入门到精通.
-\newblock  第~$N$~次华山论剑, 西安, 中国, 2006
+\bibitem{crosslayeroptimization}
+Yuan J, Li Z, Yu W, et~al.
+\newblock A cross-layer optimization framework for multihop multicast in
+  wireless mesh networks.
+\newblock Selected Areas in Communications, IEEE Journal on, 2006,
+  24(11):2092--2103
+\thudot
+
+\bibitem{crosslayervideotransmission}
+Wan Z, Xiong N, Yang L~T.
+\newblock Cross-layer video transmission over ieee 802.11 e multihop networks.
+\newblock Multimedia Tools and Applications, 2015, 74(1):5--23
+\thudot
+
+\bibitem{review}
+Royer E~M, Toh C~K.
+\newblock A review of current routing protocols for ad hoc mobile wireless
+  networks.
+\newblock Personal Communications, IEEE, 1999, 6(2):46--55
+\thudot
+
+\bibitem{broadcaststorm}
+Tseng S~Y~C~Y~S~S~J~P.
+\newblock The broadcast storm problem in a mobile ad hoc network.
+\newblock Wireless Networks, 2002, 8:153--167
+\thudot
+
+\bibitem{insignia}
+Lee S~B, Ahn G~S, Zhang X, et~al.
+\newblock Insignia: An ip-based quality of service framework for mobile ad hoc
+  networks.
+\newblock Journal of Parallel and distributed Computing, 2000, 60(4):374--406
+\thudot
+
+\bibitem{ITCD}
+Zhang X~M, Zhang Y, Yan F, et~al.
+\newblock Interference-based topology control algorithm for delay-constrained
+  mobile ad hoc networks.
+\newblock Mobile Computing, IEEE Transactions on, 2015, 14(4):742--754
+\thudot
+
+\bibitem{mobilitysurvey}
+Xie J, Wang X.
+\newblock A survey of mobility management in hybrid wireless mesh networks.
+\newblock Network, IEEE, 2008, 22(6):34--40
+\thudot
+
+\bibitem{2007mobility}
+Huang R, Zhang C, Fang Y.
+\newblock A mobility management scheme for wireless mesh networks.
+\newblock  Global Telecommunications Conference, 2007. GLOBECOM'07. IEEE. IEEE,
+  2007.
+\newblock  5092--5096
+\thudot
+
+\bibitem{2002link}
+Gerharz M, De~Waal C, Frank M, et~al.
+\newblock Link stability in mobile wireless ad hoc networks.
+\newblock  Local Computer Networks, 2002. Proceedings. LCN 2002. 27th Annual
+  IEEE Conference on. IEEE, 2002.
+\newblock  30--39
+\thudot
+
+\bibitem{2001mobility}
+Grossglauser M, Tse D.
+\newblock Mobility increases the capacity of ad-hoc wireless networks.
+\newblock  INFOCOM 2001. Twentieth Annual Joint Conference of the IEEE Computer
+  and Communications Societies. Proceedings. IEEE, volume~3. IEEE, 2001.
+\newblock  1360--1369
+\thudot
+
+\bibitem{study}
+Yang H~S, Sun J~H.
+\newblock A study on stable data transmission using hierarchical share group in
+  mobile ad hoc network.
+\newblock Wireless Personal Communications, 2016, 86(1):333--349
+\thudot
+
+\bibitem{Iptvhome}
+Birlik F, G{\"u}rb{\"u}z {\"O}, Ercetin O.
+\newblock Iptvhome networking via 802.11 wireless mesh networks: an
+  implementation experience.
+\newblock Consumer Electronics, IEEE Transactions on, 2009, 55(3):1192--1199
+\thudot
+
+\bibitem{W4}
+Haritaoglu I, Harwood D, Davis L~S.
+\newblock W 4: Real-time surveillance of people and their activities.
+\newblock Pattern Analysis and Machine Intelligence, IEEE Transactions on,
+  2000, 22(8):809--830
+\thudot
+
+\bibitem{staticmapping}
+Mangold S, Choi S, May P, et~al.
+\newblock Ieee 802.11 e wireless lan for quality of service.
+\newblock  Proc. European Wireless, volume~2, 2002.
+\newblock  32--39
+\thudot
+
+\bibitem{dynamicmapping}
+Wan Z, Xiong N, Ghani N, et~al.
+\newblock Adaptive scheduling for wireless video transmission in high-speed
+  networks.
+\newblock  Computer Communications Workshops (INFOCOM WKSHPS), 2011 IEEE
+  Conference on. IEEE, 2011.
+\newblock  180--185
+\thudot
+
+\bibitem{videos}
+video sequences.
+\newblock \url{http://trace.eas.asu.edu/yuv/}
+\thudot
+
+\bibitem{SMM}
+Ksentini A, Naimi M, Gu{\'e}roui A.
+\newblock Toward an improvement of h. 264 video transmission over ieee 802.11 e
+  through a cross-layer architecture.
+\newblock Communications Magazine, IEEE, 2006, 44(1):107--114
+\thudot
+
+\bibitem{DMM}
+Lin C~H, Shieh C~K, Ke C~H, et~al.
+\newblock An adaptive cross-layer mapping algorithm for mpeg-4 video
+  transmission over ieee 802.11 e wlan.
+\newblock Telecommunication Systems, 2009, 42(3-4):223--234
+\thudot
+
+\bibitem{AMM}
+Yao X~W, Wang W~L, Yang S~H, et~al.
+\newblock Ipb-frame adaptive mapping mechanism for video transmission over ieee
+  802.11 e wlans.
+\newblock ACM SIGCOMM Computer Communication Review, 2014, 44(2):5--12
 \thudot
 
 \end{thebibliography}
