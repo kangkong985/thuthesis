@@ -12,7 +12,7 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 单跳带宽测试\relax }}{18}{figure.caption.18}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces 隐终端带宽测试\relax }}{18}{figure.caption.19}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces 带宽测试结果\relax }}{19}{figure.caption.20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 引入发送功率的带宽测试结果\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 引入发送功率的带宽测试结果\relax }}{19}{figure.caption.21}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces 子网划分实验床\relax }}{21}{figure.caption.22}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces 子网划分后的干扰示意图\relax }}{21}{figure.caption.23}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces GOP结构示例，GOP(12,3)\relax }}{24}{figure.caption.25}
@@ -22,19 +22,20 @@
 \contentsline {figure}{\numberline {4.12}{\ignorespaces 不同位置的P帧丢失对视频质量的影响比较\relax }}{26}{figure.caption.29}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces 映射机制流程\relax }}{30}{figure.caption.31}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces 映射机制跨层设计\relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces 映射算法效果比较\relax }}{31}{figure.caption.33}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces 映射算法度量参数比较\relax }}{31}{figure.caption.34}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces $\alpha $对权重影响，(a)PSNR，(b)SSIM，(c)DFR\relax }}{33}{figure.caption.35}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces $b_{0}$对权重影响，(a)PSNR，(b)SSIM，(c)DFR\relax }}{33}{figure.caption.36}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces \emph {h}对权重影响，(a)PSNR，(b)SSIM，(c)DFR\relax }}{33}{figure.caption.37}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces 无漫游机制下的节点接入点切换\relax }}{35}{figure.caption.38}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces 多跳灾难\relax }}{36}{figure.caption.39}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces 客户端漫游，连接切换过程\relax }}{37}{figure.caption.40}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces 链路切换实验图示\relax }}{38}{figure.caption.41}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces BATMAN-adv结构示意\relax }}{42}{figure.caption.42}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces BATMAN-adv功能模块\relax }}{43}{figure.caption.43}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces BATMAN-adv数据发送\relax }}{44}{figure.caption.44}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces 动态阈值计算模块与BATMAN-adv交互图示\relax }}{45}{figure.caption.45}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces 路由震荡实验\relax }}{46}{figure.caption.46}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces TQ值变化及路由切换对比\relax }}{47}{figure.caption.48}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces 实际系统部署图示\relax }}{31}{figure.caption.33}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces 映射算法效果比较\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces 映射算法度量参数比较\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces $\alpha $对权重影响，(a)PSNR，(b)SSIM，(c)DFR\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces $b_{0}$对权重影响，(a)PSNR，(b)SSIM，(c)DFR\relax }}{33}{figure.caption.37}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces \emph {h}对权重影响，(a)PSNR，(b)SSIM，(c)DFR\relax }}{34}{figure.caption.38}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces 无漫游机制下的节点接入点切换\relax }}{36}{figure.caption.39}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces 多跳灾难\relax }}{36}{figure.caption.40}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces 客户端漫游，连接切换过程\relax }}{37}{figure.caption.41}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces 链路切换实验图示\relax }}{39}{figure.caption.42}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces BATMAN-adv结构示意\relax }}{42}{figure.caption.43}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces BATMAN-adv功能模块\relax }}{43}{figure.caption.44}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces BATMAN-adv数据发送\relax }}{44}{figure.caption.45}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces 动态阈值计算模块与BATMAN-adv交互图示\relax }}{45}{figure.caption.46}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces 路由震荡实验\relax }}{46}{figure.caption.47}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces TQ值变化及路由切换对比\relax }}{47}{figure.caption.49}
 \addvspace {10\p@ }

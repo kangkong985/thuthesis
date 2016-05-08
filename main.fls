@@ -285,6 +285,10 @@ INPUT data/chap04.aux
 INPUT data/chap04.aux
 INPUT data/chap05.aux
 INPUT data/chap05.aux
+INPUT data/ack.aux
+INPUT data/ack.aux
+INPUT data/resume.aux
+INPUT data/resume.aux
 OUTPUT main.aux
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
@@ -501,6 +505,8 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntx-Italic-tlf-t1.tfm
 INPUT figures/WorkingFlow.png
 INPUT figures/Crosslayer.png
+INPUT figures/realproduct.png
+INPUT figures/deployment.png
 INPUT figures/Overall_performance.png
 INPUT figures/PSNR.png
 INPUT figures/SSIM.png
@@ -523,15 +529,6 @@ INPUT figures/Route_change.png
 OUTPUT data/chap05.aux
 INPUT data/chap05.tex
 INPUT data/chap05.tex
-INPUT main.lof
-INPUT main.lof
-OUTPUT main.lof
-INPUT main.lot
-INPUT main.lot
-OUTPUT main.lot
-INPUT main.loe
-INPUT main.loe
-OUTPUT main.loe
 INPUT main.bbl
 INPUT main.bbl
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1.tfm
@@ -550,6 +547,12 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+OUTPUT data/ack.aux
+INPUT data/ack.tex
+INPUT data/ack.tex
+OUTPUT data/resume.aux
+INPUT data/resume.tex
+INPUT data/resume.tex
 OUTPUT main.thm
 INPUT main.aux
 INPUT data/chap01.aux
@@ -562,3 +565,7 @@ INPUT data/chap04.aux
 INPUT data/chap04.aux
 INPUT data/chap05.aux
 INPUT data/chap05.aux
+INPUT data/ack.aux
+INPUT data/ack.aux
+INPUT data/resume.aux
+INPUT data/resume.aux

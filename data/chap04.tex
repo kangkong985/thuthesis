@@ -64,22 +64,22 @@ QoS保障；移动场景下的QoS保障专注于优化Mesh节点移动带来的�
 的中间，则两份数据同时到达将造成混乱，无法分辨，从而无法应答。导致两边的终端不得不反复的重传，甚至发生
 数据包丢失。以下实验就是探究隐终端在Mesh网络中的影响。
 
-首先进行单跳实验，网络拓扑如图~\ref{fig:hiddenterminal-1}。客户端连接N1节点，服务端连接
-N5节点，图中共计5个节点组成一个稳定的无线Mesh网络。
+首先进行单跳实验，网络拓扑如图~\ref{fig:hiddenterminal-1}。客户端连接1节点，服务端连接
+5节点，图中共计5个节点组成一个稳定的无线Mesh网络。
 
 在客户端和服务端之间，通过Mesh网络进行100次测试。每次测试运行20秒，客户端上的发送进程分别
 以1至100间隔1Mbps的发送带宽向服务端发送UDP数据包。每次测量结束，服务端上的服务进程会统计
 客户端此次通信数据的有效带宽、时延抖动等数据并告知客户端进程。所有测量结果在客户端汇总整理。
 
 然后进行隐终端存在的实验，网络拓扑如图~\ref{fig:hiddenterminal-2}。客户端机器通过交换机与
-Mesh网络中的N1节点和N5节点连接，服务端机器与Mesh网络中的N3节点相连，在该网络中，N1节点和
-N5节点互相不在覆盖范围内，不知道对方的存在。
+Mesh网络中的1节点和5节点连接，服务端机器与Mesh网络中的3节点相连，在该网络中，1节点和
+5节点互相不在覆盖范围内，不知道对方的存在。
 在客户端和服务端之间，客户端
-虚拟两个进程，利用Iperf工具并控制N1节点和N5节点并发向N3节点发送数据，调节发射功率从500次
+虚拟两个进程，利用Iperf工具并控制1节点和5节点并发向3节点发送数据，调节发射功率从500次
 依次增大到1700，每次通过Mesh网络进行100次测试。每次测试进行20秒，客户端上的两个进程分别以
 1到100间隔1Mbps的发送带宽向服务端发送UDP数据包。每次测量结束，服务端的进程统计客户端进程
 此次通信数据的有效带宽等数据并告知客户端进程。所有测量结果在客户端汇总整理。
-以上实验过程在N1节点和N5节点RTS/CTS打开与关闭的情况下分别进行依次。
+以上实验过程在1节点和5节点RTS/CTS打开与关闭的情况下分别进行依次。
 
 \begin{figure}[H] % use float package if you want it here
   \centering
@@ -132,10 +132,11 @@ N5节点互相不在覆盖范围内，不知道对方的存在。
       {\includegraphics[height=5cm]{hiddenterminal-txpower}}
   \hspace{1em}
   \subcaptionbox{隐藏终端带宽测试实验结果(增加发送功率作为因变量)\label{fig:hiddenterminal-6}}
-    {\includegraphics[height=5cm]{hiddenterminal-rts-comp-3d}}
+    {\includegraphics[height=4cm]{hiddenterminal-rts-comp-3d}}
   \caption{引入发送功率的带宽测试结果}
 \end{figure}
 
+\subsection{子网划分与信道分配}
 由上述实验可以看出相邻链路干扰和隐终端的存在会给Mesh网络的实际有效带宽带来很大的干扰。
 因此在进行总体网络规划的时候，选择进行子网划分，子网内部工作在同一信道，子网之间
 采用正交信道，避免相互干扰。
@@ -478,6 +479,20 @@ I帧的传输质量。
   \label{fig:crosslayer}
 \end{figure}
 
+实验基于室外实际运行的监控网络进行，该系统部署于无锡新区大学科技园清华物联网技术
+中心附近，部署图和实验选择的网络拓扑如图~\ref{fig:realdeploy}
+\begin{figure}[h]
+  \centering
+  \subcaptionbox{}
+      {\includegraphics[height=5cm]{realproduct}}
+  \hspace{1em}
+  \subcaptionbox{}
+    {\includegraphics[height=5cm]{deployment}}
+  \caption{实际系统部署图示}
+  \label{fig:realdeploy}
+\end{figure}
+
+
 \subsection{实验验证}
 \renewcommand{\thesubsubsection}{\Alph{subsubsection}.}
 \subsubsection{实验方法}
@@ -572,7 +587,7 @@ $\lbrack0.6,0.8\rbrack$区间内，保证一个相对较好的头数据包的发
   \label{fig:parameter_h}
 \end{figure}
 
-\textbf{视频内容的影响}。实验视频在大小，时长，内容丰富性上有较大差异。比如，“container”
+\textbf{视频内容的影响}。实验结果在视频大小，时长，内容丰富性上有较大差异。比如，“container”
 是一段监控视频，记录缓慢的桥梁的画面；相比之下，“coastguard”记录了一段摩托艇在海上冲浪
 的视频，画面变化非常快，因此，在实时性上，“coastguard”的要求比“container”要高很多。从
 图~\ref{fig:parameter_alpha}，~\ref{fig:parameter_b0}和~\ref{fig:parameter_h}可见，
@@ -928,7 +943,7 @@ $unicast\_send\_skb()$，在该函数中搜索转换表查找目的节点。
 \subsubsection{整体性能}
 实验的目的是验证该算法在路径TQ值相近
 且频繁波动的情况下能否维持相对稳定有效的路由，以及公式~\ref{equ:h_threshold}中个参
-数的影响。
+数的影响。该实验同样基于图~\ref{fig:realdeploy}示实际监控系统进行。
 
 实验中将两个重要的影响参数进行设定，将TQ值的计算窗口长度从默认的5缩减到3，将OGM的
 发包间隔从默认的1000ms缩减到200ms。

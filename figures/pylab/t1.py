@@ -29,9 +29,11 @@ y2 = [2,3,4,10,12,14,16,18,19,20,
 print len(x)
 print len(y1)
 print len(y2)
+
+
 # pl.plot(x, y1, marker='*', markersize=6, label='RTS/CTS off')
 # pl.plot(x, y2, color='r', marker='x', markersize=6, label='RTS/CTS on')
-pl.plot(x, y, marker='o', markersize=3)
+# pl.plot(x, y, marker='o', markersize=3)
 pl.ylabel('Real Bandwidth(Mbps)', fontsize=20)
 pl.xlabel('Input Bandwidth(Mbps)', fontsize=20)
 # pl.legend()

@@ -1,17 +1,188 @@
 This is makeindex, version 2.15 [TeX Live 2015] (kpathsea + Thai support).
-Scanning style file /usr/local/texlive/2015/texmf-dist/makeindex/latex/gglo.ist........
-** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/latex/gglo.ist, line = 81):
+Scanning style file /usr/local/texlive/2015/texmf-dist/makeindex/latex/gind.ist..........
+** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/latex/gind.ist, line = 70):
    -- Unknown specifier lethead_prefix.
-** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/latex/gglo.ist, line = 82):
+** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/latex/gind.ist, line = 71):
    -- Unknown specifier lethead_suffix.
-** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/latex/gglo.ist, line = 83):
+** Input style error (file = /usr/local/texlive/2015/texmf-dist/makeindex/latex/gind.ist, line = 72):
    -- Unknown specifier lethead_flag.
-......done (14 attributes redefined, 3 ignored).
-Scanning input file thuthesis.glo....
-!! Input index error (file = thuthesis.glo, line = 38):
-   -- Extra `=' at position 64 of first argument.
-done (274 entries accepted, 1 rejected).
-Sorting entries.....done (2522 comparisons).
-Generating output file thuthesis.gls....done (508 lines written, 0 warnings).
-Output written in thuthesis.gls.
+...done (13 attributes redefined, 3 ignored).
+Scanning input file thuthesis.idx.....done (1693 entries accepted, 0 rejected).
+Sorting entries................done (19268 comparisons).
+Generating output file thuthesis.ind....
+## Warning (input = thuthesis.idx, line = 546; output = thuthesis.ind, line = 96):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1662; output = thuthesis.ind, line = 254):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1674; output = thuthesis.ind, line = 255):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 47; output = thuthesis.ind, line = 258):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 115; output = thuthesis.ind, line = 260):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 275; output = thuthesis.ind, line = 262):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 283; output = thuthesis.ind, line = 263):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 208; output = thuthesis.ind, line = 347):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1692; output = thuthesis.ind, line = 351):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 691; output = thuthesis.ind, line = 412):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 695; output = thuthesis.ind, line = 412):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 697; output = thuthesis.ind, line = 413):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 48; output = thuthesis.ind, line = 432):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 116; output = thuthesis.ind, line = 434):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 52; output = thuthesis.ind, line = 446):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1619; output = thuthesis.ind, line = 453):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 68; output = thuthesis.ind, line = 459):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 76; output = thuthesis.ind, line = 459):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 12; output = thuthesis.ind, line = 461):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 72; output = thuthesis.ind, line = 462):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 2; output = thuthesis.ind, line = 464):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 10; output = thuthesis.ind, line = 465):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 70; output = thuthesis.ind, line = 466):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 8; output = thuthesis.ind, line = 467):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 18; output = thuthesis.ind, line = 469):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 281; output = thuthesis.ind, line = 477):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 99; output = thuthesis.ind, line = 528):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1634; output = thuthesis.ind, line = 711):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 51; output = thuthesis.ind, line = 731):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 302; output = thuthesis.ind, line = 776):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1680; output = thuthesis.ind, line = 778):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1686; output = thuthesis.ind, line = 779):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 547; output = thuthesis.ind, line = 819):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1663; output = thuthesis.ind, line = 839):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1675; output = thuthesis.ind, line = 840):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 276; output = thuthesis.ind, line = 842):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 284; output = thuthesis.ind, line = 843):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 209; output = thuthesis.ind, line = 844):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1693; output = thuthesis.ind, line = 848):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 692; output = thuthesis.ind, line = 851):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 696; output = thuthesis.ind, line = 851):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 698; output = thuthesis.ind, line = 852):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 282; output = thuthesis.ind, line = 856):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 100; output = thuthesis.ind, line = 862):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1635; output = thuthesis.ind, line = 872):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 303; output = thuthesis.ind, line = 878):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1681; output = thuthesis.ind, line = 880):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1687; output = thuthesis.ind, line = 881):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+.
+## Warning (input = thuthesis.idx, line = 1618; output = thuthesis.ind, line = 1359):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 67; output = thuthesis.ind, line = 1373):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 75; output = thuthesis.ind, line = 1373):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 11; output = thuthesis.ind, line = 1375):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 71; output = thuthesis.ind, line = 1376):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 1; output = thuthesis.ind, line = 1378):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 9; output = thuthesis.ind, line = 1379):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 69; output = thuthesis.ind, line = 1380):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 7; output = thuthesis.ind, line = 1381):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = thuthesis.idx, line = 17; output = thuthesis.ind, line = 1383):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (1498 lines written, 58 warnings).
+Output written in thuthesis.ind.
 Transcript written in thuthesis.ilg.

@@ -7,6 +7,8 @@ A level-1 auxiliary file: data/chap03.aux
 A level-1 auxiliary file: data/chap04.aux
 A level-1 auxiliary file: data/chap05.aux
 The style file: thuthesis.bst
+A level-1 auxiliary file: data/ack.aux
+A level-1 auxiliary file: data/resume.aux
 Database file #1: ref/refs.bib
 I was expecting a `,' or a `}'---line 6 of file ref/refs.bib
  :   
@@ -18,30 +20,30 @@ Warning--empty institution in AODV
 Warning--empty year in IEEE80211
 Too many commas in name 1 of "A.Rowe, R.Rajkumar, C.Huang, C-C.Yeh" for entry OmniEye
 while executing---line 1203 of file thuthesis.bst
-Too many commas in name 1 of "Tseng, Yu-Chee Ni, Sze-Yao Chen, Yuh-Shyau Sheu, Jang-Ping" for entry broadcaststorm
+Too many commas in name 1 of "Tseng, Y.Ni, S.Chen, Y-S.Sheu, J.Ping" for entry broadcaststorm
 while executing---line 1203 of file thuthesis.bst
-Too many commas in name 1 of "Tseng, Yu-Chee Ni, Sze-Yao Chen, Yuh-Shyau Sheu, Jang-Ping" for entry broadcaststorm
+Too many commas in name 1 of "Tseng, Y.Ni, S.Chen, Y-S.Sheu, J.Ping" for entry broadcaststorm
 while executing---line 1203 of file thuthesis.bst
 You've used 39 entries,
             2299 wiz_defined-function locations,
-            749 strings with 11767 characters,
-and the built_in function-call counts, 20712 in all, are:
-= -- 2150
+            751 strings with 11773 characters,
+and the built_in function-call counts, 20640 in all, are:
+= -- 2142
 > -- 474
 < -- 16
 + -- 222
 - -- 110
-* -- 1617
-:= -- 2681
+* -- 1609
+:= -- 2673
 add.period$ -- 104
 call.type$ -- 39
 change.case$ -- 37
 chr.to.int$ -- 0
 cite$ -- 42
-duplicate$ -- 1486
-empty$ -- 2147
+duplicate$ -- 1478
+empty$ -- 2139
 format.name$ -- 142
-if$ -- 4770
+if$ -- 4754
 int.to.chr$ -- 0
 int.to.str$ -- 39
 missing$ -- 39
@@ -53,7 +55,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 378
 stack$ -- 0
-substring$ -- 2835
+substring$ -- 2819
 swap$ -- 139
 text.length$ -- 16
 text.prefix$ -- 0
