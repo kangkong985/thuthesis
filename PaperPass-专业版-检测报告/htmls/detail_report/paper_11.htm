@@ -1,0 +1,388 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_10.htm">上一页</a>
+<a class="pagelink" href="#">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：11/11页
+]
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">336</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>值得注意的是，我们在公式中没有限定 c 值的范围，在上一节也涉及过是否 会出现 c 值较大导致链路停滞在较差水平而不进行切换。</span><span class='green'>现做如下讨论:</span><span class='green'>因为 TQ 值最大为 255，现假设 TQ 值从 0 开始向较高 TQ 值链路切换。</span><span class='green'>初始阶段因为 TQ 值和 c 值均为 0，所以只有 h0 一项，假设 h0 为 5，也就是说此时的动态阈值 h 的 值为 5。</span><span class='green'>那么当另一条链路 TQ 值大于 5 就会完成第一次切换，新的链路动态阈 值为大于等于 a ∗ ⌊log 5⌋+5。</span><span class='green'>完成第二次切换后，新的链路动态阈值变为大于等于 a ∗ ⌊log(a ∗ 5 + 5)⌋ +5。</span><span class='green'>当切换至之前的路径时，c 值大于等于 2，log c 开始发挥 作用。</span><span class='green'>新的链路动态阈值也就增加了 b ∗ ⌊log c⌋ 项。</span><span class='green'>假设 a 取值为 2，b 取值为 3， 那么在 8 次切换后，动态阈值 h 的值将达到 25，而此时选择的链路质量也会显著 好于之前的链路。</span><span class='green'>整个过程的各参数值变化参见表 4.5，其中最后一行的 258 加 ∗ 号，为假设推导项。</span><span class='green'>因为 TQ 值最大为 255，达到 255 后不再增加，所以也就不会 再发生路径切换。</span><span class='green'>从表中可以看出动态阈值 h收敛于25，表中所推导的数据是再 TQ值理想最低情况下，可以判定动态阈值 h最高收敛值为25，</span><span class='green'>收敛条件是 TQ值接近255，亦可判定 c值不会超过6。</span><span class='green'>进一步地，当节点掉电或者其它原因导致某 条链路从路由表中移除，重新构建该链路后所有参数亦重新初始化。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">337</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 h0。</span><span class='green'>h0 的作用和固定阈值相近，但它的主要目的是为了在 TQ 值 和 c 都相对较小时，提供一个阈值的下限，加快收敛速度。</span><span class='green'>所以它的取值相对于固 定阈值的设定也会相对较小。</span><span class='green'>实践中一般建议取值范围为 [5， 10]。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">338</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.4 本章小结</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">339</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>本章详细介绍了系统的实际实现，尤其是本项目的三个核心创新点。</span><span class='green'>4.1节针对无线信道干扰的问题设计了子网信道隔离的部署方案，将上百个节点组成的全干扰网络划分为10个互相独立的子网，</span><span class='green'>每个子网内自组织形成 Mesh网络，上层通过远距离无线传输设备将所有子网的数据通过簇首节点传输至汇聚</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">340</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>节点。</span><span class='green'>这样的网络规划可以最大现大限度的发挥当前 Mesh 路由协议的承载能力， 同时充分利用 5GHz 频段的频谱资源。</span><span class='green'>实现网络性能的巨大提升。</span><span class='green'>实验显示，划分 子网进行信道隔离后，原先近乎瘫痪的全干扰网络可以流畅的传输所有视频数据。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">341</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.2主要工作是设计了一种包级别的视频帧映射算法，用以提升在工业视频监 控场景下的 Mesh 网络视频传输性能。</span><span class='green'>盖映射算法综合考虑了多种对视频解码有影响的参数，如视频帧格式、视频帧编码结构、帧序列以及头数据包的特殊性等，</span><span class='green'>设计公式4-3综合以上参数，生成每个数据包对应的权重。</span><span class='green'>得到数据包权重后，结合 队列的占用情况，将不同的数据包插入合适的发送队列。</span><span class='green'>最后，设计并实现了上 述算法，在真实的系统中长期运行。</span><span class='green'>相对于传统 EDCA、静态映射算法和动态映射 算法，该映射算法在 PSNR 值上分别能够提升 ]50%，16%，5%。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">342</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.3首先从 BATMAN-adv 的路由算法及链路质量判定方法引出该路由机制在 漫游场景下对低延迟要求的服务无力支持的窘境。</span><span class='green'>随后介绍了一种优化方案，该方案中通过短暂的复用之前建立的有效路由，完成路由重建的时间间隙中的通信需求，</span><span class='green'>在这个时间间隔中，所有到达漫游节点的数据由之前的接入点引导到当前接入点，从而完成通信。</span><span class='green'>该方案在瞬时漫游场景下表现良好，但是如果漫游节点 在两跳链路之间缓慢移动，那么漫游过程中的路径切换时延将无法避免。</span><span class='green'>一个直 观而有效的方法是缩减 TQ 值计算窗口，同时减小 OGM 的发包频率。</span><span class='green'>这两种方法 都能够增加路由计算对链路质量变化的敏感度，从而更快的在上述场景下完成路 由切换。</span><span class='green'>但是另一方面，增加链路敏感度可能导致路由震荡，该现象往往出现在质</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">343</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>量相近且波动频繁的链路之间。</span><span class='green'>对于视频传输，路由震荡可能导致视频卡断，甚 至完全无法观看。</span><span class='green'>同时存在遭受 DOS 攻击的风险。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">344</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>针对这一问题，本章提出了一种新的动态阈值标量，定义为 h，并在公式 4-5中 阐明其计算方法和意义。</span><span class='green'>虽有通过实验对比动态阈值标量和静态阈值之间的性能 差异。</span><span class='green'>实验显示，动态阈值的性能提升是巨大的。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">345</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>之后，讨论了公式4-5中的参变量 a、 b、 c、 h0取值不同对动态阈值 h的影响，</span><span class='green'>影响主要是从收敛速度，确保收敛至合理值等方面讨论，最后给出了不同参变量的合适的取值范围。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">346</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>第 5 章 总结与展望</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">347</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>回顾全文，首先在第一章介绍了项目的背景和意义，无线 Mesh网络的快速发展对人们的生产生活所产生的影响越来越大，</span><span class='green'>尤其在一切基础网络设施缺乏的特殊场合，比如灾后重建、野外大规模作业等， Mesh网络能够充分发挥其易部署、低成本、高可靠性的特点，</span><span class='green'>为这类工作提供很好的支持。</span><span class='green'>然而 Mesh 网络因为其特殊 的网络构建方式和无线信道的开发性，导致难以提供 QoS 保障。</span><a href='../sentence_detail/1011.htm' target='right' class='orange' >进而第二章介绍 了相关领域的研究现状，以及目前 Mesh 网络的主流协议。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">348</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/1012.htm' target='right' class='orange' >在此基础上，第三章提出了文章三个核心的创新点:</a><span class='green'>子网信道隔离的部署方 案、跨层视频帧权重差分技术、路径质量敏感的动态切换阈值算法。</span><span class='green'>三个创新点 围绕提升 Mesh 网络整体 QoS 展开。</span><span class='green'>子网信道隔离的目的是在网络规划层面优化 整体网络性能;</span><span class='green'>视频帧优先级队列映射的作用在于对视频帧进行不同的权重分解， 以保证高权重的数据包能够优先传送;</span><span class='green'>移动场景下的 QoS 保障解决的问题是增强 协议对链路质量变化的敏感度，从而缩减漫游中的路径切换时延，同时优化路由 震荡的问题。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">349</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/1018.htm' target='right' class='orange' >第四章分三部分详细介绍了三个核心创新点在实际无线 Mesh 网络系统中如 何设计实现。</a><span class='green'>自网信道隔离通过在 5GHz 频段选取五个相互正交的信道，使得相 邻子网之间相互隔离，并在 Mesh 子网上层架设一层无线桥接网络。</span><span class='green'>这样的实现不 仅充分利用了 5GHz 频段的频谱资源，还将大的网络切割为较小的 Mesh 子网，这 种模块化的思想为后期的网络管理与维护及网络规模的扩建提供了支撑。</span><span class='green'>跨层视 频帧权重差分技术设计了一个跨层的优先级队列映射机制。</span><span class='green'>视频源采用 GOP 分层 编码，第一跳节点计算每一个视频帧数据包的权重，计算过程结合帧的类型、帧的 位置以及是否为帧的头数据包。</span><span class='green'>计算完成后将权重值存储在网络层包头的 ToS 字 段，后继节点不需要计算转发数据包的权重值。</span><span class='green'>之后在发送阶段映射模块会根据 权重值将数据包插入合适的队列。</span><span class='green'>路径质量敏感的动态切换阈值算法针对节点漫 游时可能产生的路径切换时延，重新调整了原 BATMAN-adv 协议的 TQ 值滑动窗 口和 OGM 发包频率。</span><span class='green'>并设计实现了动态阈值标量的计算模块，从而避免了因为提 神链路质量敏感度导致的路由震荡。</span><span class='green'>在介绍三个创新点的设计实现中贯穿了大量 的时延以验证不同的功能带来的性能上的提升。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">350</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>最终的实现的系统相对于之前的原始系统在整体系统性能上达到极大的提升。</span><span class='green'>子网信道隔离使得实验 Mesh 网络的性能提升达到 10 倍以上。</span><span class='green'>视频真优先级队列</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">351</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>映射针对视频质量度量指标 PSNR 的相对于传统 EDCA 方式提升分别在 50% 以 上。</span><span class='green'>移动场景下的 QoS 保障使得短路径到长路径的切换时延从 30 秒缩减到 4 秒 左右，并有效抑制了路由震荡。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">352</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>5.2 工作展望</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">353</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/1034.htm' target='right' class='orange' >本文的工作部分解决了目前工业界大规模无线 Mesh 网络应用中的 QoS 保障 的问题，单仍然存在很多可以优化和改善的地方。</a><span class='green'>比如子网信道隔离，虽然充分保障了子网之间的相互零干扰，但是占用了过多的信道资源，</span><span class='green'>可能会干扰其他非 Mesh网络设备的正常工作，这一点我们在伊拉克实际部署时就曾经遭遇过。</span><span class='green'>如何 在占用更少信道资源的情况下保障干扰最小化是一个值得研究的课题，它的核心 其实就是信道分配算法，学术界对这个问题也有过很多的研究工作。</span><span class='green'>再如跨层视频帧权重差分技术，引入了802.11 e的 EDCA机制，尝试了新的权重计算方法和映射机制，</span><span class='green'>但是也还存在一定的局限性，比如现阶段只适用于视频监控等少数场景，另外多跳路径上不同节点汇入的数据如何进行负载均衡也是一个值得研究的课题。</span><span class='green'>最后路径质量敏感的动态切换阈值算法，做到了在路径切换延时的大幅优化和路由震荡抑制，但是显然4秒的延迟对于时延敏感的数据服务仍然存在巨大的提升空间，</span><span class='green'>同时路由震荡本文的方法抑制效果在前期并不理想，是否存在类似毒性逆转等传统网络中使用的方法可以更好的解决此问题也是值得进一步研究的。</span><a href='../sentence_detail/1042.htm' target='right' class='orange' >总之， 本文的工作取得了显著的成果，但还存在大量的问题值得研究。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">354</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>我们也看到，现在无线 Mesh 网络技术发展迅猛，国内外很多公司都加入 Mesh 网络研发的队伍，比如华为、微软、思科、Aruba、Strix 等。</span><span class='green'>学术界也一直在研究 其中的路由、安全、QoS 保障等方面的问题，典型的项目有 MIT 的 RoofNet 项目、 约翰霍普金斯大学的 SMesh 项目等。</span><span class='green'>IEEE802.11 几年前已经成立了 Mesh 网络工 作组 802.11s，该标准目前正在稳步推进。</span><a href='../sentence_detail/1046.htm' target='right' class='orange' >随着相关的研发工作的投入，有理由相 信无线 Mesh 网络将在人们的日常生产生活中发挥越来越重要的作用。</a>
+</p>
+</div>
+
+
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_10.htm">上一页</a>
+<a class="pagelink" href="#">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：11/11页
+]
+</div>
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>

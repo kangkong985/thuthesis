@@ -20,7 +20,7 @@
   cmajor={软件工程},
   cauthor={王锋},
   csupervisor={刘云浩教授},
-  cassosupervisor={**教授}, % 副指导老师
+  % cassosupervisor={**教授}, % 副指导老师
   % 日期自动使用当前时间，若需指定按如下方式修改：
   % cdate={超新星纪元},
   %
@@ -70,10 +70,10 @@
   日益显著的影响。传统的AP网络设备，在为移动设备提供无线接口的同时，需要以有
   线形式接入外部网络,极大的限制了AP网络的灵活性和覆盖范围。另一种更加泛在的无线
   网络-3G/4G网络，虽然能够提供足够的网络覆盖范围,但网络基础设施部署和维护成本极
-  高。在这样的背景下，无线Mesh网络以其优秀的灵活性、易部署等特性得到了广泛的尝试。
+  高。在这样的背景下，无线Mesh网络以其优秀的灵活性、易部署等特性吸引了人们的兴趣。
   目前，无线Mesh网络在校园、城市、野外、救灾、油田等很多场景下得到积极的推广和应
   用。但在提供便捷、灵活的网络接入方式的同时，也因其高度动态的路由机制带来了很多网
-  络应用上的不足，比如无线链路的不稳定性，严重的信号间干扰等，网络拓扑不稳定等。无线Mesh
+  络应用上的不足，比如无线链路的不稳定性，移动链路干扰，网络拓扑不稳定等。无线Mesh
   网络在整体协议栈上缺乏QoS保障机制，MAC技术依赖802.11系列协议设定，但又无法直接引入
   802.11e的QoS保障技术。
 
@@ -82,7 +82,7 @@
 
   本文的创新点主要有：
   \begin{itemize}
-    \item 大规模无线Mesh网络实践；
+    \item 大规模无线Mesh视频监控网络实践；
     \item 跨层的QoS保障技术。
   \end{itemize}
 
@@ -92,23 +92,33 @@
 % \ckeywords{\TeX, \LaTeX, CJK, 模板, 论文}
 
 \begin{eabstract}
-   An abstract of a dissertation is a summary and extraction of research work
-   and contributions. Included in an abstract should be description of research
-   topic and research objective, brief introduction to methodology and research
-   process, and summarization of conclusion and contributions of the
-   research. An abstract should be characterized by independence and clarity and
-   carry identical information with the dissertation. It should be such that the
-   general idea and major contributions of the dissertation are conveyed without
-   reading the dissertation.
+Wireless Mesh Network(WMN), as an emerging wireless network technology, has exerted
+increasingly huge impact on our daily life. In traditional AP wireless network,
+AP routers provide wireless interface to mobile clients, while at the same time 
+wired connection need to be provided for access to the external network, which 
+will greatly limit the flexibility and coverage of AP network. Another more
+ubiquitous wireless network is 3G/4G network. This kind of wireless access provide
+much larger coverage to mobile clients. However, the cost for deployment and 
+maintenance of the fundamental infrastructure is very high. Under this background, 
+wireless Mesh network has attracted many peoples' interest with its' features
+such as flexibility, self-organization, easy to deploy, etc. Nowadays, some 
+wireless mesh network projects has been deployed in school yard, rural areas, 
+oil field, etc. On one hand, wireless mesh network bring with a lot of convenience.
+On the other hand, many problems come with the highly dynamic routing mechanism
+of WMN, like link instability, mobile interference, network topology instability 
+and so on. WMN is lack of QoS support mechnism. Although the MAC layer inherits from 
+IEEE802.11 standard, the QoS support mechnism of 802.11e will not be supported in
+ad hoc network.
 
-   An abstract should be concise and to the point. It is a misunderstanding to
-   make an abstract an outline of the dissertation and words ``the first
-   chapter'', ``the second chapter'' and the like should be avoided in the
-   abstract.
+The main work of this paper will focus on the QoS support technology of WMN 
+in the scenario of video surveillance. We will put forward a cross-layer technology
+programme to optimize the performance of video surveillance over WMN.
 
-   Key words are terms used in a dissertation for indexing, reflecting core
-   information of the dissertation. An abstract may contain a maximum of 5 key
-   words, with semi-colons used in between to separate one another.
+The main innovation points are as follows:
+\begin{itemize}
+\item The practical deployment of large scale WMN for surveillance.
+\item Cross-layer QoS support technology.
+\end{itemize}
 \end{eabstract}
 
-% \ekeywords{\TeX, \LaTeX, CJK, template, thesis}
+%\ekeywords{WMN, video surveillance, QoS, Orthogonal channel}

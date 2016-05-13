@@ -2,7 +2,7 @@ import numpy as np
 import pylab as pl
 
 x = [i for i in range(1,101)]
-y = x
+y = x[1:95] + [95,95.1,95.2,94.9,95,95]
 
 y1 = [2,4,6,8,10,12,14,16,18,20,
       22,24,26,28,30,32,34,36,37,38,
@@ -27,15 +27,16 @@ y2 = [2,3,4,10,12,14,16,18,19,20,
       41,48,42,47.6,42,46,41.4,45.5,46,45]
 
 print len(x)
+print len(y)
 print len(y1)
 print len(y2)
 
 
 # pl.plot(x, y1, marker='*', markersize=6, label='RTS/CTS off')
 # pl.plot(x, y2, color='r', marker='x', markersize=6, label='RTS/CTS on')
-# pl.plot(x, y, marker='o', markersize=3)
-pl.ylabel('Real Bandwidth(Mbps)', fontsize=20)
-pl.xlabel('Input Bandwidth(Mbps)', fontsize=20)
+pl.plot(x, y, marker='o', markersize=3)
+# pl.ylabel('Real Bandwidth(Mbps)', fontsize=20)
+# pl.xlabel('Input Bandwidth(Mbps)', fontsize=20)
 # pl.legend()
 pl.show()
 

@@ -1,0 +1,622 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_7.htm">上一页</a>
+<a class="pagelink" href="paper_9.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：8/11页
+]
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">241</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>在 3.2 节中详细介绍了 BATMAN-adv 协议的数据包类型、节点发现过程、链 路质量估算和路由选择过程。</span><span class='green'>其中链路质量的估算直接影响到链路的选择，决定了 能否及时的感知链路状况变化， 客户端发生漫游，并且时换链路的直接决定条件。</span><span class='green'>但另一方面，如果对链路状态过于敏感，则可能导致路由震荡，甚至路由失效。</span><span class='green'>这 些在后面的实验验证部分都会通过实际场景论述。</span><span class='green'>因此我们需要在路由对链路变 化感知敏感度和路由切换频率之间进行权衡。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">242</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>如 3.2.3 节所介绍，在 BATMAN-adv 协议中，TQ 值作为链路估算的标准值， 描述在链路上传输成功的概率。</span><span class='green'>TQ 值记录在 OGM 包中，随着 OGM 传播至网络 中其他节点，在传播过程中逐跳累乘当前链路 TQ 值，并在每多一跳时减少一个惩</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">243</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>罚值，该惩罚值默认为 30，作为对多跳路径的惩罚，这意味着在网络构建中偏向 于选择尽量短的路径。</span><span class='green'>TQ 值存储为一个 8 位的数值，大小为 0-255，数值越大表 示链路的质量越好，255 即表示该路径上的数据可以保证百分之百的传输成功率。</span><span class='green'>另外， TQ值在最终被使用时还会进过一个滑动窗口做滑动平均，窗口默认大小为5，</span><span class='green'>即对最近的5次计算得到的 TQ值做滑动平均，以此防止网络的抖动对路由选择造成影响，</span><span class='green'>而链路的抖动在无线网路中十分常见。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">244</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>因为节点无法直接计算发送的成功概率，所以在实现中通过接收质量 RQ(从</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">245</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>该邻居点成功接收的概率) 和回程质量 EQ(成功发送至该邻居节点并成功收到应答</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">246</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>的概率) 得到。</span><span class='green'>计算过程再 3.2.3 章节中详细介绍。</span><span class='green'>最终的单跳链路的 TQ 计算公</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">247</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>式为TQ = EQ。</span><span class='green'>整条多跳路径的TQ值为该多跳路径上每一条单跳链路TQ值的 RQ</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">248</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>乘积。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">249</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>当链路质量能够支持所有的发送数据包都能够被接收方成功接收，则 TQ 值</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">250</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>为最大的 255。</span><span class='green'>相反，当网络中的链路质量出现波动，比如一条链路上出现遮挡或者节点移动，则此时链路的 TQ值下降，</span><a href='../sentence_detail/691.htm' target='right' class='orange' >下降后的 TQ值随着 OGM广播至全网其他节点，接收到的节点做相应的路由表更新。</a><span class='green'>而如果在 OGM 广播到相应节点更新 的这段时间内，节点正在进行通信就会出现通信中断，中断时长视 OGM 的传播速 度和相应节点路由表更新速度而定。</span><span class='green'>这就会引入一个时间差。</span><span class='green'>如图4.21，一个客户端从之前接入的节点移动至另一位置，通过另一个 Mesh节点接入 Mesh网络，客户端仍然能够和网络中的节点正常通信，</span><span class='green'>因为网络中的每一个节点都会通过接入点的 OGM知道客户端的存在。</span><span class='green'>然而， OGM的产生和传输需要一段时间，这段时差内，网络中的其他节点仍然将传送至客户端的数据包交给之前的接入点，</span><span class='green'>而之前的接入点在这段差内也同样不知道客户端的状态，所以实际上客户端是无法和网络中其他节点交互的。</span><span class='green'>这段时差随网络规模而变，在实验网络中可长达数秒，如图4.22这样的多跳场景，</span><span class='green'>1号节点需要6个 OGM的转发周期才能获知客户端当前的接入状态，我们称之为多跳灾难，</span><span class='green'>如果在传输过程中任意一跳丢失会导致传输时间间隔成倍增长。</span><span class='green'>这对于对时延敏感的数据，尤其是 VoIP 或者视频监控数据是 无法忍受的。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">251</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.3.1 BATMAN-adv 的漫游支持</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">252</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>所谓漫游，指当客户端在网络中移动，从一个接入点移动到另一个接入点的 过程中不会失去连通性。</span><a href='../sentence_detail/704.htm' target='right' class='orange' >传统的没有漫游技术支持的网络，如上节所述，当客户端从一个接入点移动到另一个接入点，</a><span class='green'>需要新的接入点通过 OGM以广播的形式通知全网中的其他节点客户端的接入状态，直到</span><span class='green'>所有节点都获知客户端的接入状态变化才能够确保客户端能够与网络中其他节点通信。</span><a href='../sentence_detail/707.htm' target='right' class='orange' >而这个过程随网络规模的 扩大而扩大，对于时延敏感的应用场景无法忍受。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">253</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>因此，BATMAN-adv 在 2011 年引入了对漫游的支持。</span><span class='green'>该机制的核心在于添加 一种称为漫游数据包的包类型，当客户端移动到新的接入点，仍然能够充分利用 原先已经建立的连接，即使此时原先的连接已经不是最优的方案。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">254</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>当一个节点检测到漫游事件时，就会发送一个漫游数据包，以快速恢复原先的 连接。</span><span class='green'>那么如何检测到漫游事件呢?</span><span class='green'>当节点检测到客户端接入时会首先检查当前 路由表中是否有到达该客户端的路由，如果有，则说明该客户端是从之前的接入 点漫游过来的。</span><span class='green'>此时如果要通过 OGM 包告知网络中之前正在与该客户端通信的 节点显然很困难，因为新的接入节点并不知道客户端之前的通信节点有哪些。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">255</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>时也无法保证有没有新的节点在寻求与客户端通信的有效路由。</span><span class='green'>此时，最有效的</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">256</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/716.htm' target='right' class='orange' >方法是利用客户端之间的接入点已建立的有效连接。</a><a href='../sentence_detail/717.htm' target='right' class='orange' >于是，新的接入点通过单播 包的形式通知旧的接入点，</a><span class='green'>“客户端已经通过我接入网络”</span><span class='green'>，该数据包即漫游数据 包。</span><span class='green'>旧的接入节点就可以快速的建立到达客户端的临时路由，网络中其他节点则 可以暂时通过旧接入点和临时路由完成与客户端的通信。</span><span class='green'>这个阶段网络中的其他 节点是不知道客户端发生了漫游的，但也不应该一直使用这条临时路由通信，因 为这条路由并不是协议选择的最佳路由。</span><span class='green'>所以，与此同时，新接入点的 OGM包会广播通知全网节点客户端新的接入状态，于是在 OGM广播全网完成后，</span><a href='../sentence_detail/723.htm' target='right' class='orange' >所有节点通过信的接入点重新建立起到达客户端的有效路由。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">257</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>的数据。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">258</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>(b) 客户端 cli 从接如点 B 移动到接如点 A，这个时间段内 ext 发送给 cli 的数据</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">259</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>再A点丢失。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">260</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>(c) 一旦 cli 与 B 点连接成功，B 点就会发送一个漫游数据包，以单播包的形式 发送给A点。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">261</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>(d)  A点就开始将发送给cli的数据转发给B点。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">262</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/729.htm' target='right' class='orange' >(e)  B点继续广播OGM至网络中的其他节点，其他节点更新cli的新的接入状</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">263</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>态。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">264</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>(f)  所有节点收到 B 点的 OGM 后就会构建新的有效路由，直接将发送给 cli 的</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">265</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>数据交给 B 点而非之前的 A 点。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">266</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.3.2 TQ 值差异导致的切换延时</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">267</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>BATMAN-adv 引入的漫游机制很好的优化了客户端漫游的切换时延问题。</span><a href='../sentence_detail/735.htm' target='right' class='orange' >但是，在实验中我们发现，客户端在漫游的过程中并不是突然从一个接入点移动到另一个接入点，</a><span class='green'>很多情况下是在两个接入点之间逐渐过度，移动的过程中同时与 A点和 B点建立有效连接，</span><span class='green'>在选择路由时根据两条路径的 TQ值大小决定。</span><span class='green'>在这样的场景下，如果两条路径的 TQ值差异较大，客户端从 TQ值较大的</span><span class='green'>接入点向 TQ值较小的接入点移动就会出现长时间的连接中断或者通信质量差。</span><span class='green'>下面的实验将 进一步说明这一现象。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">268</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>A. 实验方法</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">269</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>在固定位置放置三套 Mesh 节点，位置成一条直线，相邻节点相距 10 米。</span><span class='green'>通 过加装衰减器，调整功率使得仅相邻节点可互相感知，1 号节点和 3 号节点不能够 直接通信，每个节点的有效信号覆盖范围如图所示。</span><span class='green'>此时在一辆车上放置一个节 点，节点同样控制在和固定节点相同的功率。</span><a href='../sentence_detail/745.htm' target='right' class='orange' >3 号节点连接一个摄像头，小车节点 连接笔记本电脑实时现实摄像头图像。</a><span class='green'>实验过程如下:</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">270</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/747.htm' target='right' class='orange' >1.车辆按图示方向从 1 号点出发到达 3 号点，再返回 1 号点。</a><span class='green'>在这个过程中记 录 TQ 值的变化，当前路径条数以及视频质量变化情况。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">271</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>2.将 TQ 值计算的滑动窗口长度从 5 缩减到 1，重复 1 的过程。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">272</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>3.将包 OGM 包发包频率从默认的 1000ms 调整为 200ms，重复上述实验。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">273</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>38</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">274</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>B. 实现过程及现象</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">275</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>(1)  试验车从 A 点开始行驶，此时 4 号节点和 3 号节点之间通过 3 跳路径连接， 4-]1-]2-]3。</span><span class='green'>整条路径的 TQ 值为 190，视频传输正常;</span><span class='green'>小车前进至 B 处的过 程中，3 跳路径的 TQ 值逐渐减小。</span><span class='green'>而此时另一条可用的2跳路径，4-]2-]3的 TQ值逐渐增大，当两跳路径的 TQ值增大到超过3跳路径一定值时，</span><span class='green'>实际传输路径理解切换为2跳路径。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">276</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>.(2) 试验车继续驶离 B点，驶向 C点，2跳路径的 TQ值继续增大，当试验车驶过2号节点后，</span><span class='green'>2跳路径的 TQ值开始减小，于此同时建立其另一条有效单跳路径，4-]3，且单跳路径的 TQ值开始逐渐增大，</span><span class='green'>最终实际路由路径平滑切换到单跳路径。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">277</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>.(3) 之后试验车开始向反方向行驶，单跳 TQ值逐渐减小，两跳路径(4-]2-]3) TQ值逐渐增大，</span><a href='../sentence_detail/762.htm' target='right' class='orange' >当试验车靠近2号节点时，视频断开连接。</a><span class='green'>经过 30 秒左右视频 连接恢复。</span>
+</p>
+</div>
+
+
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_7.htm">上一页</a>
+<a class="pagelink" href="paper_9.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：8/11页
+]
+</div>
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>

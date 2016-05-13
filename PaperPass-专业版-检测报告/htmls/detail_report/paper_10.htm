@@ -1,0 +1,505 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_9.htm">上一页</a>
+<a class="pagelink" href="paper_11.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：10/11页
+]
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">308</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>C.</span><span class='green'>BATMAN-adv 数据发送与转发</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">309</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>每个 BATMAN-adv 节点需要维护 Originators 表用以记录网络中所有 BATMAN-adv 节点。</span><span class='green'>Originators 表存储节点的信息，并在转发和发送本地数据包 时用来做辅助决策。</span><a href='../sentence_detail/866.htm' target='right' class='orange' >同时每个节点还维护邻居表用以记录所有的邻居信息，并在 进行路由选择时选择最佳的邻居节点作为下一跳。</a><span class='green'>之后，还需要维护一个转换表， 用来记录非 BATMAN-adv 网络节点的设备的接入情况。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">310</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>当节点需要发送数据时，首先查看目的地址是 BATMA-adv 设备，如果不是就 查找转换表，找到该目的设备连接在哪个 Mesh 节点下。</span><span class='green'>然后以该 Mesh 节点作为 目的节点进行路由。</span><span class='green'>路由过程如下:</span><a href='../sentence_detail/871.htm' target='right' class='orange' >根据发送的目的节点地址搜寻 Originator 表， 找到之后在确定到达目的节点的最佳下一跳节点，然后在 Neighbors 表中找到该邻 居节点，并将数据包发送给该邻居节点。</a><span class='green'>图 4.27给出了发送过程细致的函数处理过程。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">311</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>协议栈中上层通过注册的回调函数inter face_tx()将数据交给BATMAN-adv。</span><span class='green'>该函数会检查源地址，如果该数据包来自一个新连接到节点的设备就需要在转换 表中注册该设备的地址。</span><span class='green'>目的地址需要检查是否为单播包或者广播包，如果是单 播报就交给 unicast_send_skb()，在该函数中搜索转换表查找目的节点。</span><a href='../sentence_detail/876.htm' target='right' class='orange' >然后，在 routing.c 中查找到达目的节点的最佳下一跳邻居，并完成 batman 包头的封装。</a><span class='green'>之 后交由 send_skb_packet() 进行发送。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">312</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>转发和发送本地数据包，其流程十分相似，唯一的区别在于来源不同，导致在预 处理上有些许差异:</span><span class='green'>转发的数据包需要先判断数据包的类型，以及做一些路由环路 侦测等处理;</span><span class='green'>而本地数据包则直接从上层虚拟 Mesh 接口获得，完成 BATMAN-adv 的封装。</span><span class='green'>之后两种来源的数据包的路由和发送机制完全相同。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">313</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>转发数据包从 hard_ interface. c模块进入，首先由 recv_ unicast_ packet()函数处理，</span><a href='../sentence_detail/883.htm' target='right' class='orange' >检查源地址，如果本节点不是目的节点就将数据包交给 routing. c模块由 route_ unicast_ packet()函数完成路由和包头数据的更替，</a><span class='green'>之后交给 send_ skb_ packet()完成发送。</span><span class='green'>如果本节点是目的节点，数据包就直接交给 soft- interface.c模块的inter face_rx()函数，进行batman包头剥离，并传递给上层。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">314</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>D.</span><span class='green'>BATMAN-adv 中实现动态阈值切换</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">315</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>考虑如何在 BATMAN-adv 中实现动态阈值切换，我们发现动态阈值切换主要 的作用范围在于单播包做路由决策时。</span><a href='../sentence_detail/889.htm' target='right' class='orange' >当节点发送本地数据包或者转发数据包时， 都会在发送之前选择最佳的下一跳节点，也就是进行路由决策。</a><span class='green'>如果之前没有在 干路径上传输过数据，则需要从路由表中选择最佳下一条，即 TQ 值最大的路径中 的下一跳节点;</span><span class='green'>如果之前传输过，此时针对该路径已经存储了一个默认路由节点，这时进行路由决策就需要查看路由表项，</span><span class='green'>是否存在某条路径的 TQ值显著优于默认路径，所谓显著就是说高出当前路径 TQ值一定的阈值。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">316</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>44</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">317</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>第4章 项目实现</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">318</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>基于前面对 BATMAN-adv 功能模块的介绍，显然进行路由决策的模块为 rout- ing.c。</span><span class='green'>于是我们深入routing.c找到bat_iv_find_router()函数，该函数中进行阈值 比对。</span><span class='green'>此处，我们将原先的静态阈值替换为动态阈值，动态阈值通过独立模块计算 返回。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">319</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>综上，动态阈值切换的实现基于原 BATMAN- adv的功能模块交互方式及数据流，增加了动态阈值计算模块 dynamic_ threshold. c，</span><span class='green'>该模块和 routing. c模块交互，当 routing. c进行路由决策时，就会向动态阈值计算时就会调用 dynamic_ threshold. c相关函数进行计算。</span><span class='green'>另外，需要在路由表项的数据结构中添加路径切换计数字段 c，用以记录当前路径切换次数。</span><span class='green'>添加动态阈值计算模块后的功能模块结构如下 图 4.28</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">320</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>图 4.28 动态阈值计算模块与 BATMAN-adv 交互图示 至此就完成了动态阈值标量 h 的设计与实现，那么它的实际效果如何我们通</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">321</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>过如下实验加以验证。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">322</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.3.5 实验验证 A.</span><span class='green'>整体性能</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">323</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>实验的目的是验证该算法在路径 TQ 值相近且频繁波动的情况下能否维持相 对稳定有效的路由，以及公式 4-5中个参数的影响。</span><span class='green'>该实验同样基于图 4.15示实际 监控系统进行。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">324</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>实验中将两个重要的影响参数进行设定，将 TQ 值的计算窗口长度从默认的 5 缩减到 3，将 OGM 的发包间隔从默认的 1000ms 缩减到 200ms。</span><span class='green'>首先设定实验网 络拓扑，如图 4.29所示，1 号点有两条有效路由可以和 4 号点通信，通过 2 号点 中继，或者通过 3 号点中继。</span><span class='green'>在 1 号点上连接摄像头，那么 4 号点会通过 1-]2-]4 或者 1-]3-]4 两跳路径收到摄像头的视频图像。</span><span class='green'>此时如果在两条路径的第一跳上</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">325</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>存在一个干扰物来回移动，因为5 GHz频段信号绕障碍的能力较差，</span><span class='green'>当有障碍物移动到1号点和2号点之间时会影响1-]2链路的通信质量，</span><span class='green'>降低1-]2-]4路径的 TQ值，使得通过该条路径传输的视频图像卡顿;</span><span class='green'>同样地，当障碍物移动到 1 号点 和 3 号点之间时会直接降低 1-]3-]4 路径的 TQ 值，使得通过该条路径传输的视频 图像卡顿。</span><span class='green'>适当调节衰减器和发送功率，因为在实验设定中，TQ 值的计算窗口和 OGM 的发包间隔都缩短了，所以很容易达到如下状态:</span><span class='green'>当障碍物移动到 1-]2 链路 上时，BATMAN-adv 会自动切换传输路径至 1-]3-]4;</span><span class='green'>反之，当障碍物移动到 1-]3 链路上时，BATMAN-adv 会自动切换到路径 1-]2-]4 上。</span><span class='green'>这样以一定的频率来回 移动障碍物就会造成路由震荡，无法正常传输数据，视频无法观看。</span><a href='../sentence_detail/920.htm' target='right' class='orange' >而实际上，此 时总是至少存在一条有效路径可以进行数据传递的。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">326</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>分别对 BATMAN-adv 所使用的固定阈值和本章所提出的动态阈值算法做一组 实验，每组实验以 10 秒的周期来回移动障碍物，持续 10 分钟。</span><span class='green'>实验中设定 h0 为 5。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">327</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>可以发现，引入动态阈值标量 h 后，前期 (0 2 分钟) 路</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">328</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>由抖动仍然存在，之后切换会越来越缓慢，且越来越少，最后一直维持在单一路由</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">329</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>上。</span><span class='green'>结合公式 4-5分析如下:</span><span class='green'>在整个实验过程中，两跳链路的 TQ 值都随着障碍物 的移动呈现周期性的波动状态，如图 4.30(a)。</span><span class='green'>实验刚开始时，数据传输在 1-]2-]4 上进行，此时链路 1-]2-]4 的 c 值为 1，链路 1-]3-]4 的 c 值为 0。</span><span class='green'>当障碍物移动 到 1-]2-]4 路径上时，该路径的 TQ 值下降至低于路径 1-]3-]4，于是传输路径切 换至 1-]3-]4。</span><span class='green'>之后当障碍物移动到另一条链路后，传输路径再次切换。</span><span class='green'>值得注意 的是，在整个实验过程中，TQ 值最差也不低于 160，这个 TQ 值是可以保障我们 实验中的视频稳定传输的，然而因为路由频繁切换导致视频无法传输。</span><span class='green'>在前两分 钟内这个切换的过程对于固定阈值和动态阈值的没有差异，都会导致路径近似于 周期性的切换。</span><span class='green'>但在这个过程中动态阈值计算公式中的 c值在逐渐变大，当到达两分钟左右的时候，</span><span class='green'>c值增大到3，动态阈值此时的大小要比初始时高出 b∗3，这就保障了路径切换的标准增大，</span><span class='green'>在实验中表现为路径维持在路径1-]3-]4上。</span><span class='green'>如 图 4.30(b) 所示，途中路径编号 1 为 1-]2-]4，2 为 1-]3-]4。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">330</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>另一个可能的疑虑是当 TQ值不高，但因为频繁切换后 c值升高，导致动态阈值整体较大，</span><span class='green'>会不会导致此时即使出现一条 TQ值很高的路径，仍然会受制于动态阈值而无法切换呢?</span><span class='green'>实际上，在实际实验中如果 TQ 值较，低那么 c 值很难达到一 个很大的值。</span><span class='green'>假设此时两跳路径 TQ 值较低，均在 150 以下，向同一条路径切换两 次后该路径 c 值为 2。</span><span class='green'>此时动态阈值就会显著提高 b ∗ 2，如果再次切换后 TQ 值必 然已经达到一个较高的水平。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">331</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>B. 各项参数对动态阈值的影响</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">332</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 a。</span><span class='green'>a 的作用是根据 TQ 值的不同，调整动态阈值的大小。</span><span class='green'>当 TQ 值较小时，倾向于更快的切换到较好的链路上，因为此时链路无法很好的支持数 据传输。</span><span class='green'>动态阈值变小会导致一定时间的路由波动的可能性，关于波动的抑制可 以通过 c 值来调节。</span><span class='green'>另一方面，当 TQ 值较大，此时显然链路足以支撑当前数据的 正常传输，因此倾向于保持在该条链路上，即使此时存在一个更好的链路也可以</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">333</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>暂不考虑。</span><a href='../sentence_detail/949.htm' target='right' class='orange' >a 取值偏小时会导致 h 收敛速度慢，偏大则可能导致无法收敛到合理的 值。</a><span class='green'>实践中一般建议取值范围为 [2， 3]。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">334</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 b。</span><span class='green'>b的作用是辅助 c值达到合理的收敛速度，和 a类似，如果取值偏小会导致 h收敛速度慢，</span><a href='../sentence_detail/953.htm' target='right' class='orange' >取值偏大则会导致 h无法收敛到合理值。</a><span class='green'>实践中一 般建议取值范围为 [4， 6]。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">335</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 c。</span><span class='green'>c的作用是当链路出现波动的时候起抑制作用，比如当 TQ值较小导致 a值较小进而导致链路波动时，</span><span class='green'>在链路波动的过程中，每一次切换相应链路上的 c值都会增加，而 c值的增加会带动动态阈值 h的增加，</span><span class='green'>从而抑制之后的链路切换。</span>
+</p>
+</div>
+
+
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_9.htm">上一页</a>
+<a class="pagelink" href="paper_11.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：10/11页
+]
+</div>
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>

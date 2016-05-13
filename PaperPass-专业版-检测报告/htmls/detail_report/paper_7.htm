@@ -1,0 +1,453 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_6.htm">上一页</a>
+<a class="pagelink" href="paper_8.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：7/11页
+]
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">217</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/573.htm' target='right' class='orange' >所谓帧映射就是将属于不同类型帧的数据包映射到不同的EDCA的AC中，区 分他们在发送时的优先权。</a><span class='green'>根据上一节涉及的权重计算方法，可以计算出每一个 视频帧对应的权重值，帧映射即可以根据该权重值完成。</span><span class='green'>映射的直接原则是充分 使用高权重队列以降低传输延迟和丢包率。</span><span class='green'>当网络质量良好，传输数据量较小时， 甚至可以将 B 帧映射到 AC(0) 中，所有帧都可以以最低延迟，最高的优先权完成 传输。</span><span class='green'>相反，当网络质量较差，网络传输数据量过大，造撑拥堵时，映射机制优先 将 I 帧映射到最高优先权队列，保证 I 帧的传输质量。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">218</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/578.htm' target='right' class='orange' >当一个数据包到达时，映射机制将顺序从最高优先权队列 AC(3) 开始依次检</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">219</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>测。</span><span class='green'>如果发现当前 AC 有足够的缓冲区余量，且满足映射标准，即将数据包插入该 AC中。</span><span class='green'>判定的标准为，给定一个数据包的权重假设为ω，如果ω∗threshold(i) ] qlen(i)， 就将数据包插入队列 AC(i);</span><span class='green'>否则，继续检查优先权次之的队列。</span><span class='green'>其中，threshold(i) 和 qlen(i) 是 AC(i) 可以通过底层 API 读取的最大队列长度和当前队列占用。</span><span class='green'>如果 一个数据包不能够插入 AC(3)，AC(2) 和 AC(1)，那么就直接插入 AC(0) 而不需要进 行进一步的检查。</span><span class='green'>映射算法尽可能设计的简单以减少 Mesh 节点的计算开销，因为 在工业应用中，Mesh 节点能源和计算资源都比较稀缺。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">220</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/586.htm' target='right' class='orange' >上面的队列映射策略给予了更高权重的数据包更高的概率插入高优先级队列， 同时阻止低权重的数据包阻塞队列。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">221</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>C. 映射系统实现</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">222</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>队列映射如图 4.13所示， 跨层架构设计也在图 4.14中展示。</span><span class='green'>在结构设计上，因 为 BATMAN-adv 协议主要工作在 mac 层，且 EDCA 的四个 AC 也在 mac 层实现， 所以我们的权重计算和映射模块均在 mac 层实现。</span><span class='green'>尽管如此，我们需要在考虑来 自引用层的数据，网络层的 ToS 字段，以及物理层的队列大小及占用情况。</span><span class='green'>实际系 统中，每个视频帧的数据包，其权重均在产生该数据包的第一个 Mesh 节点计算。</span><span class='green'>当一个 Mesh节点接到请求需要发送视频数据时，首先解构 GOP为 I帧、 P帧和 B帧，</span><span class='green'>然后将各个帧在网络层封装为较小的数据包，之后就根据每个数据包所属帧的类型、位置和数据包是否为帧的头数据包等计算数据包的权重。</span><span class='green'>之后数据包的 权重值一值维护在数据包中，在网络传输的过程中不会改变该权重值。</span><span class='green'>在最近的 实现中，我们将权重值存储在网络层包头的 ToS 字段中。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">223</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>数据包传输到网络中间任一节点时，该节点队列映射也按如图4.13所示进行，</span><span class='green'>但不需要重新计算权重值，只需要从 ToS字段中取的该权重值即可，</span><a href='../sentence_detail/598.htm' target='right' class='orange' >之后就根据该权重值，将数据包插入相应的 AC中。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">224</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>第4章 项目实现</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">225</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.2.4 实验验证 A.</span><span class='green'>实验方法</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">226</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>在 3.1 节已经介绍了项目所采用的软件系统和硬件平台。</span><span class='green'>更细致地，OpenWRT 内置的 mac80211 模块控制数据包的收发。</span><span class='green'>队列选择是数据包发送过程中的一个子 环节，核心工作就是修改 队列选择算法。</span><span class='green'>每当接收到一个数据包，首先检查改数 据包包头，如果是一个符合 H.264 编码标准的数据包就抓取其中的帧类型、GOP 信息和帧编码等。</span><span class='green'>通过公式 4-3计算出数据包的权重。</span><span class='green'>之后，根据计算得到的权重</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">227</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/608.htm' target='right' class='orange' >值和队列的负荷情况将数据包插入合适的队列中。</a><a href='../sentence_detail/609.htm' target='right' class='orange' >转发该数据包时，将权重值记 录在 IP 数据包包头的 ToS 字段中，之后的转发节点不需要重复计算。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">228</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>实验中使用公开的视频序列[32] 中的“foreman”作为基准进行比对。</span><span class='green'>将视频转 换为 25 帧每秒的 GOP(12，3) 格式。</span><span class='green'>考虑 Mesh 延时，将延时超过 1 秒的视频帧丢 弃。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">229</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>实验中采用的测量参数为 PSNR、SSIM 和 DFR，均为视频图像实验分析常用 的标准参数。</span><span class='green'>其中 PSNR 描述图像像素级的差异，对于视频则秒速视频帧图像差 异的平均值;</span><span class='green'>SSIM 描述解构差异，更能够体现人的观看体验。</span><span class='green'>DFR 描述解码成功 的帧占总帧数的比例，属于帧级别的参数。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">230</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>我们选取了之前的类似工作做对比。</span><span class='green'>其中 SMM[37] 基于帧类型;</span><span class='green'>DMM[38] 基 于帧类型和流量负载;</span><span class='green'>AMM [39] 考虑了帧类型、流量负载和 GOP 结构;</span><span class='green'>EDCA 级 802.11 默认的映射方法，也即所有视频映射到优先级次优的队列。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">231</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>B. 实验结果及分析</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">232</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>总体性能上，我们选取参数 α = 0.6， b0 = 0.2， h = 0.6，AC(0) 到 AC(3) 的 threshold 分别设为 [∞， 80， 50， 50]。</span><span class='green'>图 4.16给出了不同映射算法在视频图像上的直 观体现。</span><span class='green'>图 4.17给出了 PSNR 和 SSIM 两个参数的比。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">233</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>其中 MeshMapping 即本文所提出的映射算法。</span><span class='green'>可以看到 MeshMapping 在 PSNR 参数上要明显优于其他算法，在 SSIM 也超过其他算法。</span><span class='green'>相对于 EDCA 更是能够 在 PSNR 和 SSIM 两个参数上分别优化 74% 和 54%。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">234</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>进一步地，我们研究公式 4-3中参数对性能的影响，包括 α， b0， h。</span><span class='green'>选用视频资 源中的“coastguard”，“container”和“foreman”三种视频来做实验验证。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">235</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 α。</span><span class='green'>结果如图 4.18所示。</span><span class='green'>原则上，α 用来平衡 f0 和 f1，这两个参 数分别用来表示受该帧影响的帧数量和影响该帧的帧数量。</span><a href='../sentence_detail/634.htm' target='right' class='orange' >α 越小则 f1 对权重影 响越大，反之 f0 影响越大。</a><span class='green'>图 4.18给出了当 α 从 0.1 增长到 1.0 的过程中，各参 数值的变化。</span><span class='green'>从 (a) 可以看出，随着 α 的增长，P 帧的权重值逐渐增长，B 帧的权 重逐渐降低。</span><span class='green'>另外，如果 α 过小，序列靠前的 B 帧甚至会比靠后的 P 帧权重更高。</span><span class='green'>反之，如果 α 过大，所有 B 帧的权重会非常低。</span><span class='green'>从 (c) 可以更清楚的看出这一点， 当 α 大于 0.7 后，DFR 值会急剧下降，这样会导致 B 帧数据包丢失的概率提高。</span><span class='green'>结 合 (b) 可以看出，当 α 处于一个合理的范围，[0.4， 0.6] 区间内，可以获得最好的解 码质量。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">236</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 b0。</span><span class='green'>结果如图 4.19所示，b0 用来确保序列靠前的 B 帧能够有机会 进入高优先级的队列。</span><span class='green'>(a) 显示随着 b0 的增长，P 帧和 B 帧的权重值都会相应的提 升，意味着更多的 B 帧能够有机会进入高优先级的发送队列。</span><a href='../sentence_detail/644.htm' target='right' class='orange' >在 (c) 中，随着 b0 更多的 B 帧进入高优先级队列，导致 DFR 值增长。</a><span class='green'>但是，从 (b) 中可以看出，这 样并不意味这视频质量的增长，更多的 B 帧进入高优先级队列，就可能导致 P 帧 被分配到低优先级的队列，从而导致 SSIM 值反而降低。</span><span class='green'>这一现象在视频图像较大 时尤为明显。</span><span class='green'>综合来看，我们建议合适的 b0 取值范围应在 [0.2， 0.4]，在这个范围 内 SSIM 值和 DFR 都相对可观。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">237</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>参数影响之 h。</span><a href='../sentence_detail/649.htm' target='right' class='orange' >结果如图 4.20所示，h 用来提升帧的第一各数据包的权重值。</a><span class='green'>当 h 提升时，DFR 值显著提升，因为更多的头数据包被接受到。</span><span class='green'>但是，尽管更多 的头数据包被成功接收并解码，SSIM 值却没有相应的提升。</span><span class='green'>原因在于，头数据包 仅仅保证一个帧可以解码，但不保证其他帧的接收，而 SSIM，以及 PSNR 都更加 依赖于整个帧的解析情况。</span><span class='green'>总体来说，更多能够解码的帧带来更好的流畅体验。</span><span class='green'>在 实践中，我们通常将 h 的值设定在 [0.6， 0.8] 区间内，保证一个相对较好的头数据 包的发送成功率。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">238</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>视频内容的影响。</span><span class='green'>实验结果在视频大小，时长，内容丰富性上有较大差异。</span><span class='green'>比 如，“container”是一段监控视频，记录缓慢的桥梁的画面;</span><span class='green'>相比之下，“coastguard” 记录了一段摩托艇在海上冲浪的视频，画面变化非常快，因此，在实时性上，“coast- guard”的要求比“container”要高很多。</span><span class='green'>从图 4.18， 4.19和 4.20可见，在任何情况 下，无论上述的参数如何设定，“container”都可以以很高的质量呈现。</span><span class='green'>所以，本 文所设计的映射算法在数据量大，延时要求高，丢包严重的场合更加能够体现其 优势，也可以预期其在复杂的工业监控场景下的良好的性能。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">239</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.3 路径质量敏感的动态切换阈值</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">240</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>无线 Mesh 网络目前还处在一个高速发展的阶段，不管是学术界还是工业界目 前都还在尝试不同的技术。</span><span class='green'>物理层上，MIMO、多无线模块、软件无线电等技术都 被尝试应用到 Mesh 网络中以获得更好的网络性能。</span><span class='green'>链路层上，QoS 技术、时分复 用技术等也被广泛应用。</span><span class='green'>网络层上更是围绕组网协议这一核心模块集中了大量的研究工作，在2.2节中已经列举了诸多目前正在使用的 Mesh组网协议，</span><span class='green'>它们在链路选择、组网方式上或多或少都存在差异，而这些协议目前共同面对的一项挑战就是不能很好的应对移动场景下漫游的切换时延问题。</span><span class='green'>本节的工作集中在移动场 景下如何保证客户端接入在不同的 Mesh 主干网络节点之间切换时做到低时延。</span>
+</p>
+</div>
+
+
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_6.htm">上一页</a>
+<a class="pagelink" href="paper_8.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：7/11页
+]
+</div>
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>

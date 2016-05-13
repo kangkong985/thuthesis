@@ -1,5 +1,28 @@
 \begin{thebibliography}{10}
 
+\bibitem{IEEE80211}
+{IEEE Std 80211-2013}.
+\newblock IEEE Standard for Information Technology-Telecommunications and
+  Information Exchange Between Systems-Local and Metropolitan Area
+  Networks-Specific Requirements: Carrier Sense Multiple Access with Collision
+  Detection (CSMA/CD) Access Method and Physical Layer Specifications.
+\newblock New York: IEEE
+\thudot
+
+\bibitem{meshsurvey}
+Akyildiz I~F, Wang X, Wang W.
+\newblock Wireless mesh networks: a survey.
+\newblock Computer networks, 2005, 47(4):445--487
+\thudot
+
+\bibitem{IEEE80211s}
+{IEEE Std 80211s-2011}.
+\newblock IEEE Standard for Information technology--Local and metropolitan area
+  networks--Specific requirements--Part 11: Wireless LAN Medium Access
+  Control(MAC) and Physical Lay (PHY) Specification Amendment 10: Mesh Network.
+\newblock New York: IEEE, 2011
+\thudot
+
 \bibitem{OLSR}
 Clausen T, Jacquet P, Adjih C, et~al.
 \newblock Optimized link state routing protocol (olsr).
@@ -21,23 +44,6 @@ Neumann A, Aichele C, Lindner M, et~al.
 \bibitem{BATMAN-adv}
 Batman-adv.
 \newblock \url{https://www.open-mesh.org/projects/batman-adv/wiki}
-\thudot
-
-\bibitem{IEEE80211}
-{IEEE Std 80211-2013}.
-\newblock IEEE Standard for Information Technology-Telecommunications and
-  Information Exchange Between Systems-Local and Metropolitan Area
-  Networks-Specific Requirements: Carrier Sense Multiple Access with Collision
-  Detection (CSMA/CD) Access Method and Physical Layer Specifications.
-\newblock New York: IEEE
-\thudot
-
-\bibitem{IEEE80211s}
-{IEEE Std 80211s-2011}.
-\newblock IEEE Standard for Information technology--Local and metropolitan area
-  networks--Specific requirements--Part 11: Wireless LAN Medium Access
-  Control(MAC) and Physical Lay (PHY) Specification Amendment 10: Mesh Network.
-\newblock New York: IEEE, 2011
 \thudot
 
 \bibitem{IEEE80211e}
@@ -236,6 +242,17 @@ Yang H~S, Sun J~H.
 \newblock Wireless Personal Communications, 2016, 86(1):333--349
 \thudot
 
+\bibitem{videos}
+video sequences.
+\newblock \url{http://trace.eas.asu.edu/yuv/}
+\thudot
+
+\bibitem{OFDM}
+Hwang T, Yang C, Wu G, et~al.
+\newblock Ofdm and its wireless applications: a survey.
+\newblock Vehicular Technology, IEEE Transactions on, 2009, 58(4):1673--1694
+\thudot
+
 \bibitem{Iptvhome}
 Birlik F, G{\"u}rb{\"u}z {\"O}, Ercetin O.
 \newblock Iptvhome networking via 802.11 wireless mesh networks: an
@@ -266,11 +283,6 @@ Wan Z, Xiong N, Ghani N, et~al.
 \newblock  180--185
 \thudot
 
-\bibitem{videos}
-video sequences.
-\newblock \url{http://trace.eas.asu.edu/yuv/}
-\thudot
-
 \bibitem{SMM}
 Ksentini A, Naimi M, Gu{\'e}roui A.
 \newblock Toward an improvement of h. 264 video transmission over ieee 802.11 e
@@ -290,6 +302,28 @@ Yao X~W, Wang W~L, Yang S~H, et~al.
 \newblock Ipb-frame adaptive mapping mechanism for video transmission over ieee
   802.11 e wlans.
 \newblock ACM SIGCOMM Computer Communication Review, 2014, 44(2):5--12
+\thudot
+
+\bibitem{microsoft}
+Self-organizing wireless mesh network.
+\newblock \url{http://research.microsoft.com/en-us/projects/mesh/}
+\thudot
+
+\bibitem{cisco}
+Cisco enterprise wireless mesh solution overview.
+\newblock
+  \url{http://www.cisco.com/c/en/us/solutions/collateral/wireless/aironet-1240-ag-series/net_brochure0900aecd806b9180.html}
+\thudot
+
+\bibitem{roofnet}
+Aguayo J~B~S~B~D, Morris R.
+\newblock Architecture and evaluation of the mit roofnet mesh network (draft).
+\thudot
+
+\bibitem{SMesh}
+Amir Y, Danilov C, Musu\u{a}loiu-Elefteri R, et~al.
+\newblock The smesh wireless mesh network.
+\newblock ACM Trans. Comput. Syst., 2008, 28(3):6:1--6:49
 \thudot
 
 \end{thebibliography}

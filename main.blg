@@ -15,54 +15,59 @@ I was expecting a `,' or a `}'---line 6 of file ref/refs.bib
  :   year=2013
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 444 of file ref/refs.bib
+ : @misc{microsoft
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--empty year in IEEE80211
 Warning--empty journal in OLSR
 Warning--empty institution in AODV
-Warning--empty year in IEEE80211
 Too many commas in name 1 of "A.Rowe, R.Rajkumar, C.Huang, C-C.Yeh" for entry OmniEye
 while executing---line 1203 of file thuthesis.bst
 Too many commas in name 1 of "Tseng, Y.Ni, S.Chen, Y-S.Sheu, J.Ping" for entry broadcaststorm
 while executing---line 1203 of file thuthesis.bst
 Too many commas in name 1 of "Tseng, Y.Ni, S.Chen, Y-S.Sheu, J.Ping" for entry broadcaststorm
 while executing---line 1203 of file thuthesis.bst
-You've used 39 entries,
+Warning--empty journal in roofnet
+You've used 45 entries,
             2299 wiz_defined-function locations,
-            751 strings with 11773 characters,
-and the built_in function-call counts, 20640 in all, are:
-= -- 2142
-> -- 474
+            781 strings with 12689 characters,
+and the built_in function-call counts, 22984 in all, are:
+= -- 2368
+> -- 532
 < -- 16
-+ -- 222
-- -- 110
-* -- 1609
-:= -- 2673
-add.period$ -- 104
-call.type$ -- 39
-change.case$ -- 37
++ -- 250
+- -- 123
+* -- 1797
+:= -- 2974
+add.period$ -- 114
+call.type$ -- 45
+change.case$ -- 43
 chr.to.int$ -- 0
-cite$ -- 42
-duplicate$ -- 1478
-empty$ -- 2139
-format.name$ -- 142
-if$ -- 4754
+cite$ -- 49
+duplicate$ -- 1643
+empty$ -- 2403
+format.name$ -- 159
+if$ -- 5283
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 39
-newline$ -- 249
-num.names$ -- 37
-pop$ -- 193
+int.to.str$ -- 45
+missing$ -- 43
+newline$ -- 282
+num.names$ -- 41
+pop$ -- 225
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 378
+skip$ -- 417
 stack$ -- 0
-substring$ -- 2819
-swap$ -- 139
+substring$ -- 3135
+swap$ -- 141
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 222
-width$ -- 41
-write$ -- 483
-(There were 4 error messages)
+warning$ -- 4
+while$ -- 245
+width$ -- 47
+write$ -- 543
+(There were 5 error messages)

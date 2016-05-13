@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.7)  8 MAY 2016 22:00
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2016.5.7)  12 MAY 2016 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2240,10 +2240,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 
 ]
-(./main.toc
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 9.
- [3
+(./main.toc [3
 
 
 ])
@@ -2260,6 +2257,8 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 第1章
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 12.64714pt on input line 4.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 5.
 [1
 
 
@@ -2280,132 +2279,7 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 ]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 (Font)              scaled to size 11.74377pt on input line 56.
- [4]
-LaTeX Font Info:    Calculating math sizes for size <13.04874> on input line 77
-.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 13.04874pt on input line 77.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.52551pt on input line 77.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.17683pt on input line 77.
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.57289pt on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 89.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 89.
-
-[5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 96.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\NAT@ctype' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\let' on input line 101.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 101.
-
-[6] [7]) [8]
+ [4] [5] [6] [7]) [8]
 \openout2 = `data/chap03.aux'.
 
  (./data/chap03.tex
@@ -2428,7 +2302,12 @@ File: figures/routeselect.png Graphic file (type QTm)
  <use  "figures/routeselect.png" > [12] [13]
 File: figures/Backdesign.png Graphic file (type QTm)
 
-<use  "figures/Backdesign.png" > [14]) [15]
+<use  "figures/Backdesign.png" > [14]
+File: figures/Diagnose_web1.png Graphic file (type QTm)
+ <use  "figures/Diagnose_web1.png" >
+File: figures/Diagnose_web2.png Graphic file (type QTm)
+
+<use  "figures/Diagnose_web2.png" >) [15]
 \openout2 = `data/chap04.aux'.
 
  (./data/chap04.tex
@@ -2439,46 +2318,56 @@ File: figures/interference.png Graphic file (type QTm)
 
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 44
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 45
 .
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.04124pt on input line 44.
+(Font)              scaled to size 11.04124pt on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.06006pt on input line 44.
+(Font)              scaled to size 8.06006pt on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.07271pt on input line 44.
+(Font)              scaled to size 6.07271pt on input line 45.
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 []|\EU1/SimSun(0)/m/n/11.04124 信 道 \T1/ntxtlf/m/n/11.04124 (L1-
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 46--46
-[]|\T1/ntxtlf/m/n/11.04124 L1 \EU1/SimSun(0)/m/n/11.04124 实 际 带
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/ntxtlf/m/n/11.04124 L1 \EU1/SimSun(0)/m/n/11.04124 单 独
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 46--46
-[]|\T1/ntxtlf/m/n/11.04124 L2 \EU1/SimSun(0)/m/n/11.04124 实 际 带
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]|\T1/ntxtlf/m/n/11.04124 L1 \EU1/SimSun(0)/m/n/11.04124 并 发
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 \EU1/SimSun(0)/m/n/11.04124 实 际 带 宽
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/ntxtlf/m/n/11.04124 L2 \EU1/SimSun(0)/m/n/11.04124 单 独
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\EU1/SimSun(0)/m/n/11.04124 实 际 带 宽
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/ntxtlf/m/n/11.04124 L1 \EU1/SimSun(0)/m/n/11.04124 并 发
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\EU1/SimSun(0)/m/n/11.04124 实 际 带 宽
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 []|\T1/ntxtlf/m/n/11.04124 L2 \EU1/SimSun(0)/m/n/11.04124 并 发
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 \EU1/SimSun(0)/m/n/11.04124 实 际 带 宽
  []
 
@@ -2499,10 +2388,13 @@ File: figures/hiddenterminal-txpower.png Graphic file (type QTm)
 <use  "figures/hiddenterminal-txpower.png" >
 File: figures/hiddenterminal-rts-comp-3d.png Graphic file (type QTm)
 
-<use  "figures/hiddenterminal-rts-comp-3d.png" > [19]
-File: figures/Subnet-3.jpg Graphic file (type QTm)
+<use  "figures/hiddenterminal-rts-comp-3d.png" >
 
-<use  "figures/Subnet-3.jpg" >
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+File: figures/Subnet-3.jpg Graphic file (type QTm)
+ <use  "figures/Subnet-3.jpg" >
 File: figures/Subnet-1.jpg Graphic file (type QTm)
  <use  "figures/Subnet-1.jpg" >
 File: figures/Subnet-2.jpg Graphic file (type QTm)
@@ -2526,22 +2418,25 @@ File: figures/Ave_PSNR.png Graphic file (type QTm)
 File: figures/Ave_SSIM.png Graphic file (type QTm)
 
 <use  "figures/Ave_SSIM.png" >
-File: figures/Position-comp.png Graphic file (type QTm)
- <use  "figures/Position-comp.png" > [26]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.045pt on input line 369.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 11.04124pt on input line 388.
-Missing character: There is no ＝ in font ntx-Regular-tlf-ot1!
+File: figures/Position-comp1.png Graphic file (type QTm)
+ <use  "figures/Position-comp1.png" >
+File: figures/Position-comp2.png Graphic file (type QTm)
 
-[27] [28]
+<use  "figures/Position-comp2.png" > [26]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.045pt on input line 377.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 11.04124pt on input line 396.
+Missing character: There is no ＝ in font ntx-Regular-tlf-ot1!
+ [27] [28]
 File: figures/WorkingFlow.png Graphic file (type QTm)
- <use  "figures/WorkingFlow.png" >
+
+<use  "figures/WorkingFlow.png" >
 File: figures/Crosslayer.png Graphic file (type QTm)
- <use  "figures/Crosslayer.png" >
-[29]
+ <use  "figures/Crosslayer.png" > [29]
 File: figures/realproduct.png Graphic file (type QTm)
- <use  "figures/realproduct.png" >
+
+<use  "figures/realproduct.png" >
 File: figures/deployment.png Graphic file (type QTm)
  <use  "figures/deployment.png" >
 
@@ -2556,7 +2451,7 @@ File: figures/SSIM.png Graphic file (type QTm)
 
 <use  "figures/SSIM.png" > [32]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.045pt on input line 564.
+(Font)              scaled to size 12.045pt on input line 573.
 File: figures/Parameter_alpha.png Graphic file (type QTm)
  <use  "figures/Parameter_alpha.png" >
 File: figures/Parameter_b0.png Graphic file (type QTm)
@@ -2564,11 +2459,11 @@ File: figures/Parameter_b0.png Graphic file (type QTm)
 <use  "figures/Parameter_b0.png" >
 File: figures/Parameter_h.png Graphic file (type QTm)
  <use  "figures/Parameter_h.png" > [33]
-[34] [35]
+[34]
 File: figures/Roming_1.png Graphic file (type QTm)
  <use  "figures/Roming_1.png" >
 File: figures/Roming_2.png Graphic file (type QTm)
- <use  "figures/Roming_2.png" >
+ <use  "figures/Roming_2.png" > [35]
 [36]
 File: figures/Roming_3.png Graphic file (type QTm)
  <use  "figures/Roming_3.png" > [37]
@@ -2580,7 +2475,7 @@ File: figures/Batman-structure.png Graphic file (type QTm)
 File: figures/Functions.png Graphic file (type QTm)
 
 <use  "figures/Functions.png" > [42]
-Underfull \hbox (badness 1314) in paragraph at lines 877--882
+Underfull \hbox (badness 1314) in paragraph at lines 881--886
 []\EU1/SimSun(0)/m/n/12.045 每 个 \T1/ntxtlf/m/n/12.045 BATMAN-adv \EU1/SimSun(0)
 /m/n/12.045 节 点 需 要 维 护 \T1/ntxtlf/b/n/12.045 Orig-i-na-tors \EU1/SimSun(0)/b/n
 /12.045 表 \EU1/SimSun(0)/m/n/12.045 用 以 记 录 网 络 中 所 有
@@ -2589,16 +2484,16 @@ Underfull \hbox (badness 1314) in paragraph at lines 877--882
 File: figures/Function-send.png Graphic file (type QTm)
 <use  "figures/Function-send.png" > [43]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 895.
+(Font)              scaled to size 6.0pt on input line 899.
 
-Underfull \hbox (badness 1057) in paragraph at lines 907--913
+Underfull \hbox (badness 1057) in paragraph at lines 911--917
 []\EU1/SimSun(0)/m/n/12.045 转 发 数 据 包 从 \T1/ntxtlf/m/it/12.045 hard_interface.c
  \EU1/SimSun(0)/m/n/12.045 模 块 进 入，|  首 先 由 $\OML/ntxmi/m/it/12.045 recv[]unica
 st[]packet\U/ntxmia/m/it/12.045 }~$
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 907--913
+Underfull \hbox (badness 1248) in paragraph at lines 911--917
 \EU1/SimSun(0)/m/n/12.045 模 块 由 $\OML/ntxmi/m/it/12.045 route[]unicast[]packet\
 U/ntxmia/m/it/12.045 }~$ \EU1/SimSun(0)/m/n/12.045 函 数 完 成 路 由 和 包 头 数 据 的 更 替，
 |  之 后 交 给
@@ -2610,42 +2505,42 @@ File: figures/Dynamic_threshold.png Graphic file (type QTm)
 File: figures/Roming_5.png Graphic file (type QTm)
 
 <use  "figures/Roming_5.png" >
-Underfull \hbox (badness 1859) in paragraph at lines 980--980
+Underfull \hbox (badness 1859) in paragraph at lines 984--984
 []|\EU1/SimSun(0)/m/n/11.04124 固 定 阈 值 切 换 算
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 980--980
+Underfull \hbox (badness 1859) in paragraph at lines 984--984
 []|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 980--980
-[]|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 980--981
-[]|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 982--982
-[]|\EU1/SimSun(0)/m/n/11.04124 动 态 阈 值 切 换
- []
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 982--982
-[]|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 984--984
-[]|\EU1/SimSun(0)/m/n/11.04124 动 态 阈 值 切 换
  []
 
 
 Underfull \hbox (badness 1859) in paragraph at lines 984--984
+[]|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 984--985
+[]|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 986--986
+[]|\EU1/SimSun(0)/m/n/11.04124 动 态 阈 值 切 换
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 986--986
+[]|\EU1/SimSun(0)/m/n/11.04124 路 由 随 着 障 碍 物
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 988--988
+[]|\EU1/SimSun(0)/m/n/11.04124 动 态 阈 值 切 换
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 988--988
 []|\EU1/SimSun(0)/m/n/11.04124 短 暂 的 震 荡 后 稳
  []
 
@@ -2656,40 +2551,48 @@ File: figures/Route_change.png Graphic file (type QTm)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46] [47] [48]) [49]
+[46] [47]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.03374pt on input line 1091.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.0pt on input line 1091.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1071--1092
+
+ []
+
+[48] [49]) [50]
 \openout2 = `data/chap05.aux'.
 
  (./data/chap05.tex
 第5章
-[50
+[51
 
 
 
-]) [51] (./main.bbl
+]) [52] (./main.bbl
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.0pt on input line 23.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.0pt on input line 23.
- [52
+(Font)              scaled to size 7.0pt on input line 46.
+ [53
 
 
 
 
-] [53]) [54]
+] [54]) [55]
 \openout2 = `data/ack.aux'.
 
- (./data/ack.tex [55
+ (./data/ack.tex [56
 
 
 
-]) [56
+]) [57
 
 
 ]
 \openout2 = `data/resume.aux'.
 
 
-(./data/resume.tex) [57
+(./data/resume.tex) [58
 
 
 
@@ -2707,12 +2610,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 35077 strings out of 493632
- 648286 string characters out of 6144723
- 673356 words of memory out of 5000000
- 37915 multiletter control sequences out of 15000+600000
- 137338 words of font info for 200 fonts, out of 8000000 for 9000
+ 35085 strings out of 493632
+ 648305 string characters out of 6144723
+ 671425 words of memory out of 5000000
+ 37919 multiletter control sequences out of 15000+600000
+ 126812 words of font info for 177 fonts, out of 8000000 for 9000
  1329 hyphenation exceptions out of 8191
- 70i,15n,96p,10437b,730s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,96p,10437b,730s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (68 pages).
+Output written on main.pdf (69 pages).

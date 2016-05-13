@@ -1,0 +1,609 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PaperPass 最权威论文抄袭检测系统</title>
+<style type="text/css">
+<!--
+user_icon {
+color: #FFFFFF;
+}
+html
+{
+overflow-x:hidden;
+overflow-y:auto;
+}
+body,td,th {
+font-family: "微软雅黑";
+font-size: 12px;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: "宋体";
+}
+p{
+margin-bottom:10px;
+}
+demo_padding {
+line-height: 30px;
+}
+.zhengwen {
+padding-right: 15px;
+padding-left: 5px;
+padding-bottom:100px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+}
+.zhengwencenter {
+padding-right: 15px;
+padding-left: 0px;
+margin-bottom:10px;
+font-size: 13px;
+line-height: 20px;
+color: #666666;
+text-align:center
+}
+.neikuang {
+background-color: #EBEBEB;
+border: 1px solid #999999;
+padding-right: 10px;
+padding-left: 10px;
+margin-top:10px;
+margin-left:25px;
+width:300px;
+}
+.shubu{
+height: 20px;
+width: 20px;
+margin-left:25px;
+background-color: #FFFFFF;
+border: 1px solid #999999;
+text-align: center;
+vertical-align: middle;
+display: block;
+color: #666666;
+}
+a.red:link {color:#FF0000}
+a.red:visited {color:#FF0000}
+a.red:hover {color:#000000}
+a.red:active {color:#000000}
+
+a.orange:link {color:#FF6600}
+a.orange:visited {color:#FF6600}
+a.orange:hover {color:#000000}
+a.orange:active {color:#000000}
+
+a.dark:link {color:#666666}
+a.dark:visited {color:#666666}
+a.dark:hover {color:#000000}
+a.dark:active {color:#000000}
+
+a.pagelink:hover {color:#000000}
+a.pagelink:active {color:#000000}
+
+.green{color:#008000}
+.gray{color:#666666}
+.red{color:#FF0000}
+.orange{color:#FF6600}
+a{TEXT-DECORATION:none}
+
+-->
+</style>
+</head>
+<body>
+
+
+<div class="zhengwen">
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_5.htm">上一页</a>
+<a class="pagelink" href="paper_7.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：6/11页
+]
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">181</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>P帧(前向预测帧):</span><a href='../sentence_detail/479.htm' target='right' class='orange' >该帧包含它之前最近的I帧和P帧之间的差异，因此需要 依赖之前的 I 帧和 P 帧来解码。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">182</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>B帧(双向预测帧):</span><a href='../sentence_detail/481.htm' target='right' class='orange' >该帧压缩尺度最大，需要依赖其之前和之后的I帧和P帧 来解码。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">183</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>根据 H.264 和 MPEG-4 编码，一小段视频会被解析编码为一组重新组织过的 帧，这一组帧称为 GOP。</span><a href='../sentence_detail/483.htm' target='right' class='orange' >每个 GOP 总是由一个 I 帧开始，之后跟随一段连续的 P 帧和 B 帧。</a><span class='green'>GOP的结构可以表示为两个参数 G( N， M)，其中 N表示 GOP中包含的所有帧的数量(两个连续 I帧之间的距离)，</span><a href='../sentence_detail/485.htm' target='right' class='orange' > M表示 I帧和其后第一个 P帧之间(或者两个连续 P帧之间)的距离。</a><span class='green'>图 4.8为 G(12，3) 的结构示例，分解后即为:</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">184</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>‘IBBPBBPBBPBB’。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">185</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>如图 4.8所示，GOP 内部的不同帧之间紧密相连，不同的 GOP 之间相互独立。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">186</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/489.htm' target='right' class='orange' >实质上，I 帧不依赖于任何其他帧，可以单独解码，P 帧依赖于其之前的 I 帧或者 P 帧，B 帧依赖于其前后的 I 帧或者 P 帧。</a><a href='../sentence_detail/490.htm' target='right' class='orange' >也就是说，如果在传输过程中，丢失了 I 帧则整个 GOP 都无法解析。</a><a href='../sentence_detail/491.htm' target='right' class='orange' >类似的如果一个 P 帧丢失，则其后的 P 帧和 B 帧均 无法解码。</a><span class='green'>而 B 帧丢失仅影响其自身，其他数据帧不会收到任何影响。</span><a href='../sentence_detail/493.htm' target='right' class='orange' >由此我们 可以总结三种类型帧的重要性，显然 I 帧 ]P 帧 ]B 帧。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">187</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>综上，处于 QoS 保障的考虑，当带宽紧缺时，需要保证重要性更高的帧优先 传输。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">188</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.2.2 802.11e 增强分布式协调访问 (EDCA)</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">189</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/496.htm' target='right' class='orange' >传统的 IEEE802.11 标准分布式信道接入协调功能 (DCA) 做为基础的信道接入 方式，该方式基于 CSMA/CA，不提供 QoS 保障。</a><span class='green'>为了支持区分的服务，802.11e 引入 了一种混合协调功能 (HCF)，其中包含两种并行机制:</span><a href='../sentence_detail/498.htm' target='right' class='orange' >混合控制信道访问 (HCCA) 和增强分布式协调访问 (EDCA)。</a><span class='green'>本项目中基于 EDCA 功能展开。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">190</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>EDCA 通过引入四个不同的接入类型 (AC) 来提供 QoS 保障。</span><span class='green'>传统的802.11信道接入方式维护一个发送队列，所有业务数据平等的进行信道竞争，不同于此，</span><span class='green'>每个 AC的数据维护各自的发送队列，通过竞争窗口控制每个队列竞争获得信道的概率不同。</span><a href='../sentence_detail/503.htm' target='right' class='orange' >如图 4.9所示，四个队列按权重从低到高依次是:</a><span class='green'>AC_BK(背景数据)，AC_BE(尽 最大努力传送)，AC_VI(视频)，AC_VO(声音)，依次编号为 AC(0)，AC(1)，AC(2)，AC(3)。</span><span class='green'>不同的权重通过设置不同的信道竞争参数实现，包括竞争窗口界限、仲裁帧间隔、 发送机会限制。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">191</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>默认情况下，QoS 支持在 EDCA 中的实现是通过将实时数据包括音频视频映</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">192</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>射到 AC(2) 和 AC(3) 中，其他的数据则映射到 AC(0) 和 AC(1)。</span><a href='../sentence_detail/508.htm' target='right' class='orange' >EDCA 机制不考虑 视频帧的不同类型之间重要性的区别，将所有的编码都映射到 AC(2) 中。</a><span class='green'>然而，在 视频监控的场景中，除了少量的控制数据，几乎所有的数据都是视频数据，这些数 据都被映射到同一队列，很容易造成该队列的饱和，进一步造成丢包，影响传输质 量。</span><span class='green'>因此，在无线 Mesh 网络中，尤其在视频流作为主要传输数据的场景中，应该 充分挖掘视频帧编码之间的差异，利用 EDCA 四个队列的功能来实现更好的用户 观看体验。</span><span class='green'>之前已经有一些工作做过这方面的尝试，图 4.10给出了静态映射和动 态映射的对比。</span><span class='green'>静态映射，比如[35] ，仅仅将不同重要性的帧固定的放入固定的队 列，这样会造成优先队列资源的浪费。</span><span class='green'>动态映射，比如 [36]，进一步考虑网络地动 态状况和队列地占用情况，动态地进行队列映射，提高了网络地利用度。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">193</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>4.2.3 视频帧映射机制</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">194</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>基于 GOP编码结构和 EDCA机制，结合细粒度地分析视频数据包，我们提出了一种跨层映射方案，</span><span class='green'>实验显示该所提方案相对于朴素地基于 EDCA传输方案，优化效果]50%。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">195</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/517.htm' target='right' class='orange' >在视频监控系统中，视频数据占所传输带宽的绝大部分。</a><span class='green'>在衡量视频传输质量的时候，除了传统网络度量参数如丢包率等，更重要的是视频观看体验，</span><a href='../sentence_detail/519.htm' target='right' class='red' >目前普遍使用的衡量指标是峰值信噪比( PSNR)和结构相似性指标( SSIM)。</a><a href='../sentence_detail/520.htm' target='right' class='orange' >视频传输的 流畅、实时、清晰是视频监控系统的首要目标。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">196</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>受通用视频编码技术中的分层编码的影响，可以认为不同类型的帧对视频的 传输质量贡献不同。</span><a href='../sentence_detail/522.htm' target='right' class='orange' >这是由分层编码中 GOP 内部不同帧之间的依赖关系决定的。</a><span class='green'>如前所述，I 帧独立于其他帧，可独立解码其压缩率也最低;</span><a href='../sentence_detail/524.htm' target='right' class='orange' >P 帧依赖于其之前的 I 帧或者 P 帧，压缩率次之;</a><a href='../sentence_detail/525.htm' target='right' class='orange' >B 帧压缩率最高，但需要依赖其前后的 I 帧或者 P 帧 来解码。</a><span class='green'>不难发现，I 帧丢失则该 GOP 内全部的帧都无法解码;</span><a href='../sentence_detail/527.htm' target='right' class='orange' >P 帧丢失则其后的 所有帧无法解码，B 帧丢失则仅其自身无法解码，不影响其他帧。</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">197</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/528.htm' target='right' class='orange' >图 4.11和图 4.12 给出了 I 帧、P 帧、B 帧以及同一个 GOP 中不同位置的 P 帧 丢失对视频质量的影响。</a><span class='green'>可以看出，和我们预测的相同，在相同的数量上，</span><a href='../sentence_detail/530.htm' target='right' class='orange' > I帧对视频质量的贡献明显大于 P帧，</a><a href='../sentence_detail/531.htm' target='right' class='orange' > P帧中出现在靠前位置的 P帧影响力又要大于之后的 P帧，</a><span class='green'>而 B帧对视频质量的影响最小。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">198</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>之前的关于映射机制的工作，仅仅按照编码帧的类型进行映射，而没有考虑 不同位置帧的重要性不同。</span><span class='green'>我们将这一点引入映射机制，综合考虑帧的类型和位 置。</span><span class='green'>下面详细介绍该映射机制的细节原理和实现。</span><span class='green'>其中核心分为两部分，帧权重 计算和帧映射。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">199</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>信道 (L1-L2)</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">200</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>GOP 参数</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">201</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>数据包权重值 受当前帧影响的帧数量 影响当前帧的帧数量 权重值计算公式参数</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">202</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/540.htm' target='right' class='orange' >权重值基线 帧分解的第一个数据包的额外权重 P 帧在 GOP 中的位置索引</a>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">203</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>AC((i)) 的最大队列缓存 AC((i)) 当前使用长度</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">204</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><a href='../sentence_detail/542.htm' target='right' class='orange' >对于 I 帧，因为其相对于 P 帧和 B 帧数量极少，且对于解码 GOP 起到至关重 要的作用，所以在权重上赋最大值 1，即为 ω1;</a><span class='green'>对于 P 帧和 B 帧，它们的重要性 和它们之前的需要依赖的帧以及它们后续的依赖于它们的帧有关。</span><span class='green'>这里我们定义 受当前帧影响的帧数量为 f0，对当前帧有影响的帧数量为 f1。</span><span class='green'>进一步的定义当前 帧的权重计算公式为:</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">205</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>ω = g( f0αf1 ) (4-1)</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">206</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>在这里，α∈(0，1)是一个权重常量，用来平衡 f0和 f1，</span><span class='green'>f0≥1(所有的 P帧和 B帧至少被 I帧影响)， f1≥1(每一个帧至少影响它本身)，</span><span class='green'>g( x)是一个单调递增函数。</span><span class='green'>这 就意味着，越多的帧依赖于当前帧，或依赖于当前帧的帧越少，则当前真的权重就</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">207</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>越高。</span><a href='../sentence_detail/552.htm' target='right' class='orange' >更直观的讲，就是在一个 GOP 中出现越早的帧相对于晚出现的帧权重更高。</a><span class='green'>27</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">208</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>第4章 项目实现 为了降低 Mesh 节点的计算开销，g(x) 定义为:</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">209</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>g(x) = a(log(x) + b) + b0 (4-2) 带入 ω 表达式则有 P 帧和 B 帧数据包的权重值计算公式:</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">210</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>ω= a( log f0+ f1 logα+ b)+ b0(4-3)上式中，</span><span class='green'>b0是作为权重值的基线，确保 B帧能够有机会进入优先级较高的队</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">211</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>列。</span><span class='green'>a、b 和 b0 用来限制 ω 在 [b0，1] 的范围内。</span><span class='green'>可推出 a，b 值如下:</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">212</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>a = 1 − b0 b = − log(αN/M ) (4-4)</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">213</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>log(N) − log(αN/M )</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">214</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>上式中，log(N)和log(α(N/M))分别为log(f0α1f )的最大值和最小值。</span><span class='green'>对于一 个GOP中的第p(p]0)个P帧，f0 =N−1−M∗p， f1 =p。</span><span class='green'>对于任意子第p个P帧 后的B帧，有f0 =1，f1 =2。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">215</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>目前为止，我们定义了普通的视频帧数据包的权重计算方法，该方法充分利 用的 GOP 结构中不同类型帧不同的重要性。</span><span class='green'>下面我么考虑利用同类型不同位置帧 重要性不同的性质，其中关键的是一个视频帧被底层协议拆分为一个个的数据包 时，最重要的是第一个数据包，其中包含了编码重要的信息。</span><span class='green'>我们选择添加一个额 外的值 h 来提升第一个数据包的权重。</span><span class='green'>如果出现 ω + h ] 1，就设置 ω = 0.99。</span><span class='green'>之所以这里不设ω为1是考虑到防止 P帧或者 B帧抢占 I帧的优先权，在</span><span class='green'>保证 I帧绝对优先权的基础上最大限度提升 P帧或者 B帧较重要的数据包的传输几率。</span>
+</p>
+</div>
+
+<div>
+<p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="left" width="50"><div class="shubu">216</div></td>
+<td>&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<span style="margin-left:25px"></span><span class='green'>B. 帧映射</span>
+</p>
+</div>
+
+
+<div>
+<span style="margin-left:25px"></span>
+[
+<a class="pagelink" href="paper_1.htm">首页</a>
+<a class="pagelink" href="paper_5.htm">上一页</a>
+<a class="pagelink" href="paper_7.htm">下一页</a>
+<a class="pagelink" href="paper_11.htm">尾页</a>
+页码：6/11页
+]
+</div>
+
+<br>
+<div style="margin-left:8px">
+
+<div style="text-align:center;background-color:#CA122C;margin-top:30px;overflow:hidden;">
+<a href="http://www.paperpass.com/publish/index?from=ppreport_banner" target="_blank" style="display:block;"><img height="180" src="http://file.paperpass.com/images/fabiao.jpg"></a>
+</div>
+
+</div>
+</div>
+
+
+<div class="zhengwencenter">
+<p>
+检测报告由<a href="http://www.paperpass.com/" target="_blank">PaperPass</a>文献相似度检测系统生成
+</p>
+<p>
+Copyright © 2007-2016 PaperPass
+</p>
+</div>
+<div style="margin-bottom:400px"></div>
+</body>
+</html>
