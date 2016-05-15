@@ -35,7 +35,7 @@
   %=========
   % 英文信息
   %=========
-  etitle={Research of QoS improvement in wireless Mesh network for video transmission},
+  etitle={Research of QoS improvement in Wireless Mesh Network for video transmission},
   % 这块比较复杂，需要分情况讨论：
   % 1. 学术型硕士
   %    edegree：必须为Master of Arts或Master of Science（注意大小写）
@@ -77,13 +77,15 @@
   网络在整体协议栈上缺乏QoS保障机制，MAC技术依赖802.11系列协议设定，但又无法直接引入
   802.11e的QoS保障技术。
 
-  本文的主要工作集中在解决无线Mesh网络在视频监控场景下的QoS保障所面临的挑战，所提
-  出的技术方案在无线Mesh网络实际部署中亦具有指导意义。
+  本文的主要工作是针对无线Mesh网络在视频监控场景下的QoS保障缺陷，提出了新的网络规划部署
+  方案和跨层的QoS保障技术，使得100个节点的较大规模无线Mesh视频传输网络性能大幅提升，
+  能够同时支撑200路高清视频传输，视频传输质量相对于原始Mesh网络在PSNR指标上提升50\%
+  以上，动态场景下的路由切换延时由30秒降低到4秒，且有效抑制了网络路由震荡的问题。
 
   本文的创新点主要有：
   \begin{itemize}
-    \item 大规模无线Mesh视频监控网络实践；
-    \item 跨层的QoS保障技术。
+    \item 探索了大规模无线Mesh视频监控网络部署的性能瓶颈，并提出了子网信道隔离的解决方案；
+    \item 提出了跨层的QoS保障技术，包括跨层视频帧权重差分技术和路径质量敏感的动态切换阈值算法。
   \end{itemize}
 
 \end{cabstract}
@@ -101,7 +103,7 @@ ubiquitous wireless network is 3G/4G network. This kind of wireless access provi
 much larger coverage to mobile clients. However, the cost for deployment and 
 maintenance of the fundamental infrastructure is very high. Under this background, 
 wireless Mesh network has attracted many peoples' interest with its' features
-such as flexibility, self-organization, easy to deploy, etc. Nowadays, some 
+such as flexibility, self-organization, etc. Nowadays, some 
 wireless mesh network projects has been deployed in school yard, rural areas, 
 oil field, etc. On one hand, wireless mesh network bring with a lot of convenience.
 On the other hand, many problems come with the highly dynamic routing mechanism
@@ -110,14 +112,23 @@ and so on. WMN is lack of QoS support mechnism. Although the MAC layer inherits 
 IEEE802.11 standard, the QoS support mechnism of 802.11e will not be supported in
 ad hoc network.
 
-The main work of this paper will focus on the QoS support technology of WMN 
-in the scenario of video surveillance. We will put forward a cross-layer technology
-programme to optimize the performance of video surveillance over WMN.
+The main work of this paper will focus on working out an efficient approach
+to alleviate the problem of lack of QoS support in the state-of-art WMN for 
+video surveillance. We have proposed a new network planning and deployment scheme, 
+and cross-layer QoS support technology. Experiments in actually 
+deployed WMN system show that, our new scheme have significantly imporve the 
+performance with the ability to support 200 way high-definition camera transmitting
+over a large scale WMN consisted of 100 Wireless Mesh Nodes. On the other hand, 
+the PSNR indicator has impoved more than 50\%, the time delay in dynamic scenario
+has decreased from 30s to 4s.
 
 The main innovation points are as follows:
 \begin{itemize}
-\item The practical deployment of large scale WMN for surveillance.
-\item Cross-layer QoS support technology.
+\item Explorint the bottle neck of the practical deployment of large scale WMN for surveillance.
+and proposed the subnet channel isolation scheme.
+\item Proposed a new cross-layer QoS support technology, including video
+frame priority difference technologh and route quality aware dyamic switch threshold
+algorithm.
 \end{itemize}
 \end{eabstract}
 

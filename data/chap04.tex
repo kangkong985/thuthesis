@@ -160,11 +160,24 @@ Mesh子网，完成对该油田区域的覆盖，可以提供充足的带宽用�
 
 基于以上实验，我们搭建了大型的室内实验平台，使用3.1节中介绍的硬件平台配置了101个Mesh
 节点。将这101个节点划分为10个Mesh子网，每个Mesh子网的簇首桥接一个远距离无线设备，无线设备
-与sink直接通信。实验平台如图~\ref{fig:subnet}所示。因为原硬件平台天线信号覆盖范围最大可达
+与sink直接通信。实验网络逻辑划分和实际平台分别如图~\ref{fig:subnetexam}如图~\ref{fig:subnet}
+所示。因为原硬件平台天线信号覆盖范围最大可达
 3～5km，显然会造成整个实验床的全覆盖，形成严重的节点之间的干扰，实验验证在这种情况下视频
 完全无法传输。于是我们给天线加装衰减器，通过调节衰减器的衰减性能将天线信号覆盖范围控制在
 三米左右。这样可以基本保证划分的子网做到一定的区分。
 
+\begin{figure}[H] % use float package if you want it here
+  \centering
+  \includegraphics[width=0.6\textwidth]{subnet_exam}
+  \caption{子网逻辑划分}
+  \label{fig:subnetexam}
+\end{figure}
+\begin{figure}[H] % use float package if you want it here
+  \centering
+  \includegraphics[width=0.5\textwidth]{Subnet-interference}
+  \caption{子网间干扰示意图}
+  \label{fig:subnet_interference}
+\end{figure}
 \begin{figure}[h]
   \centering
   \subcaptionbox{}
@@ -179,13 +192,7 @@ Mesh子网，完成对该油田区域的覆盖，可以提供充足的带宽用�
   \label{fig:subnet}
 \end{figure}
 
-\begin{figure}[H] % use float package if you want it here
-  \centering
-  \includegraphics[width=0.6\textwidth]{Subnet-interference}
-  \caption{子网划分后的干扰示意图}
-  \label{fig:subnet_interference}
-\end{figure}
-实验床的节点物理位置分布成如图~\ref{fig:subnet_interference}所示，图中每种颜色代表一个独立的信道，
+实验床的节点物理位置及干扰分布如图~\ref{fig:subnet_interference}所示，图中每种颜色代表一个独立的信道，
 相互正交，相邻信道间隔为两个独立信道，因此不存在干扰。图中蓝、黄、红、紫分别代表5GHz频段
 的142、149、153、157号信道，这四个信道用于分配给子网，根据四色定理，存在这样的方案使得
 任意相邻信道之间不存在干扰。因为不同子网间节点在不同信道，互相之间不可见，因此组网协议在不同
@@ -200,7 +207,8 @@ Mesh子网，完成对该油田区域的覆盖，可以提供充足的带宽用�
 实验比较了不同的信道划分方案，主要分两类，一种是所有节点均采用同一信道，全干扰状态下进行视频
 传输实验，另一种是上述子网划分方案。在第一种单一信道实验中，用三种不同且相互正交的信道分别
 进行，以排除环境中可能的信号干扰。在每个子网中接入3路视频，一共30路视频，每一路视频占用传输
-带宽设置为2Mbps。实验结果以实际视频的传输质量为参照。
+带宽设置为2Mbps。实验结果以实际视频的传输质量为参照。后期进一步的实验显示实验
+网络最大的承载量为200路高清摄像头的数据，约为400Mbps的实时数据流。
 
 从表~\ref{tab:subnet_comp}中显而易见，子网划分方案带来的性能提升是显著的，单一信道在这样的
 全干扰状态下几乎无法正常工作。
@@ -1088,7 +1096,7 @@ $a*\lfloor \log(a*5+5) \rfloor$ +5。
   258* & 7 & 28 \\
   \hline
   \end{tabular}\\
-  \footnotesize *：假设推导项，$TQ \le 255$\\
+  \footnotesize *：假设推导项，实际$TQ \le 255$\\
   \end{minipage}
 \end{table}
 

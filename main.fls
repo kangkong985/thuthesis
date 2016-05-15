@@ -468,10 +468,11 @@ INPUT figures/hiddenterminal-onehop-result.png
 INPUT figures/hiddenterminal-rts-comp.png
 INPUT figures/hiddenterminal-txpower.png
 INPUT figures/hiddenterminal-rts-comp-3d.png
+INPUT figures/subnet_exam.png
+INPUT figures/Subnet-interference.png
 INPUT figures/Subnet-3.jpg
 INPUT figures/Subnet-1.jpg
 INPUT figures/Subnet-2.jpg
-INPUT figures/Subnet-interference.png
 INPUT figures/GOP.png
 INPUT figures/ACofEDCA.png
 INPUT figures/mapping.png
